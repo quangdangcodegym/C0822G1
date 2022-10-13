@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class IntroduceJava {
     public static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
+
         /**
         // Bài tập kiểm tra năm nhuân
         boolean flag = true;
@@ -63,6 +64,5 @@ public class IntroduceJava {
     public static int convertUSDToVnd(int numUSD, int rate){
         return rate * numUSD;
     }
-
 
 }
