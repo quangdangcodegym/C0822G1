@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e056535d-82d7-4316-8c10-214b094b0158" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/arrayandmethod/ArrayAndMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/hellojava/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/hellojava/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/introducejava/IntroduceJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/introducejava/IntroduceJava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/hellojava/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/hellojava/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/introducejava/IntroduceJava.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/introducejava/IntroduceJava.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +37,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/CODEGYM/CODEGYM/C0822G1/javacore"
+    "last_opened_file_path": "D:/CODEGYM/CODEGYM/C0622K1/helloc6/helloc6"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -107,7 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1665537195408</updated>
       <workItem from="1665537197524" duration="5822000" />
-      <workItem from="1665623498731" duration="5437000" />
+      <workItem from="1665623498731" duration="6359000" />
     </task>
     <servers />
   </component>
