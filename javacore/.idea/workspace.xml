@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e056535d-82d7-4316-8c10-214b094b0158" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/array2/Array2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/array2/Array2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/array2/Array2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +127,7 @@
       <workItem from="1665623498731" duration="6359000" />
       <workItem from="1665709485435" duration="340000" />
       <workItem from="1665754454556" duration="162000" />
-      <workItem from="1665970283539" duration="2584000" />
+      <workItem from="1665970283539" duration="4532000" />
     </task>
     <servers />
   </component>

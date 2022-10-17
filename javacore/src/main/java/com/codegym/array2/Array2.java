@@ -8,7 +8,8 @@ public class Array2 {
 
         int b[][] = inputArray2();
         System.out.println(printArray2(b));
-        System.out.println("Tổng 2 đường chéo: " + totalDiagonalArray2(b));
+//        System.out.println("Tổng 2 đường chéo: " + totalDiagonalArray2(b));
+        printTriangleLeftArray2(b);
     }
 
     public static int[][] inputArray2() {
@@ -79,4 +80,31 @@ public class Array2 {
         }
         return sum;
     }
+
+    /**
+     Bài -3: Nhập ma trận
+     Bài -2: In ra ma trận
+     Bài -1: Tính tổng các số chẵn trong ma trận
+     Bài 0: Tính tổng các số trên đường chéo chính
+     Bài 1: In ra tam giác trái
+     Bài 2: In ra tam giác phải và tính tổng
+     Bài 3: In ra tam giác trái ngược và tính tổng các số chẵn
+     Bài 5: In ra các số nằm trên đường viền của ma trận
+     **Bài 6: Làm menu tổng hợp các bài tập trên (Phải làm)
+     */
+
+
+    public static void printTriangleLeftArray2(int arr[][]) {
+        for (int c = 0; c < arr.length;c++){
+            for (int r = 0; r < c+1;r++){
+                System.out.print(arr[c][r]+ " ");
+            }
+            System.out.println("");
+        }
+    }
+    public static void printTriangleRightArray2(int arr[][]) {
+
+    }
+
+
 }
