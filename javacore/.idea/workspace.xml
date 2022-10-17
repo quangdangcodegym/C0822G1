@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e056535d-82d7-4316-8c10-214b094b0158" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/array2/Array2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="thien-dev" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -37,7 +43,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/CODEGYM/CODEGYM/C0622K1/helloc6/helloc6"
+    "last_opened_file_path": "D:/CODEGYM/CODEGYM/C0822G1/javacore",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -45,7 +52,20 @@
       <recent name="D:\CODEGYM\CODEGYM\C0822G1\javacore\src\main\java\com\codegym\hellojava" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayAndMethod">
+  <component name="RunManager" selected="Application.Array2">
+    <configuration name="Array2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.array2.Array2" />
+      <module name="javacore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codegym.array2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArrayAndMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codegym.arrayandmethod.ArrayAndMethod" />
       <module name="javacore" />
@@ -87,9 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayAndMethod" />
+        <item itemvalue="Application.Array2" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.IntroduceJava" />
+        <item itemvalue="Application.ArrayAndMethod" />
+        <item itemvalue="Application.ArrayAndMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -103,6 +125,9 @@
       <updated>1665537195408</updated>
       <workItem from="1665537197524" duration="5822000" />
       <workItem from="1665623498731" duration="6359000" />
+      <workItem from="1665709485435" duration="340000" />
+      <workItem from="1665754454556" duration="162000" />
+      <workItem from="1665970283539" duration="2584000" />
     </task>
     <servers />
   </component>
