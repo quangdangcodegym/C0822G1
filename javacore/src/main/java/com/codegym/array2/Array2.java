@@ -8,7 +8,6 @@ public class Array2 {
 
         int b[][] = inputArray2();
         System.out.println(printArray2(b));
-//        System.out.println("Tổng 2 đường chéo: " + totalDiagonalArray2(b));
         printTriangleLeftArray2(b);
     }
 

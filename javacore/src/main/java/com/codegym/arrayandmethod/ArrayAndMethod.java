@@ -1,13 +1,42 @@
 package com.codegym.arrayandmethod;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ArrayAndMethod {
     public static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
-//        int [] a = new int[10];
+        int[] arr = {4, 5, 7, 8,3};
 
+
+        int [] arrNew2 = removeElementFromArray(arr, 4);
+        System.out.println(convertArrayToString(arrNew2));
     }
+
+    private static int [] removeElementFromArray(int[] arr, int index) {
+        int[] arrNew2 = Arrays.copyOf(arr, arr.length-1);
+        if (index < arr.length - 1 && index >= 0) {
+            for (int i = 0; i < arrNew2.length; i++){
+                if (i >= index){
+                    arrNew2[i] = arr[i+1];
+                }
+            }
+        }
+        return arrNew2;
+    }
+
+    public static void addElementToArray(int arr[],int index, int value){
+        int [] arrNew = Arrays.copyOf(arr, arr.length + 1);
+        for (int i = 0; i < arrNew.length; i++) {
+            if (i == index) {
+                arrNew[i] = value;
+            }
+            if (i > index) {
+                arrNew[i] = arr[i - 1];
+            }
+        }
+    }
+
     public static void reverseArrayView(){
         int [] arr = inputArray();
         System.out.println(convertArrayToString(arr));
