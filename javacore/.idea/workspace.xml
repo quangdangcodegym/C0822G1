@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e056535d-82d7-4316-8c10-214b094b0158" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/array2hoang/VongLap2Chieu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/oop/MainOOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/oop/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/oop/StopWatch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/array2/Array2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/array2/Array2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/arrayandmethod/ArrayAndMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/arrayandmethod/ArrayAndMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/arrayandmethod/ArrayAndMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/arrayandmethod/ArrayAndMethod.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,22 +43,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/CODEGYM/CODEGYM/C0822G1/javacore&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/CODEGYM/CODEGYM/C0822G1/javacore",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\CODEGYM\CODEGYM\C0822G1\javacore\src\main\java\com\codegym\hellojava" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayAndMethod">
+  <component name="RunManager" selected="Application.MainOOP">
     <configuration name="Array2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codegym.array2.Array2" />
       <module name="javacore" />
@@ -83,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntroduceJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.introducejava.IntroduceJava" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.hellojava.Main" />
       <module name="javacore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.introducejava.*" />
+          <option name="PATTERN" value="com.codegym.hellojava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.hellojava.Main" />
+    <configuration name="MainOOP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.oop.MainOOP" />
       <module name="javacore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.hellojava.*" />
+          <option name="PATTERN" value="com.codegym.oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainOOP" />
         <item itemvalue="Application.ArrayAndMethod" />
         <item itemvalue="Application.VongLap2Chieu" />
         <item itemvalue="Application.Array2" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.IntroduceJava" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +147,8 @@
       <workItem from="1665709485435" duration="340000" />
       <workItem from="1665754454556" duration="162000" />
       <workItem from="1665970283539" duration="5001000" />
-      <workItem from="1666054982493" duration="6907000" />
+      <workItem from="1666054982493" duration="8010000" />
+      <workItem from="1666141995528" duration="6337000" />
     </task>
     <servers />
   </component>

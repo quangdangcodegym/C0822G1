@@ -72,9 +72,31 @@ public class ArrayAndMethod {
             int item = scanner.nextInt();
             arr[i] = item;
         }
-
         return arr;
     }
+    public static int[] inputArrayRandom(){
+        System.out.println("Nhập số lương phần tử của mảng: ");
+        int size = Integer.parseInt(scanner.nextLine());
+        int [] arr = new int[size];
+        for(int i=0;i<arr.length;i++){
+            arr[i] = (int) (Math.random() * (size - 1)) + 1;
+        }
+        return arr;
+    }
+
+    public static void sortArray(int a[]) {
+        for (int i = 0; i < a.length-1; i++) {
+            for (int j = i + 1; j < a.length; j++) {
+                System.out.printf("a[%d] arr[%d][%d]: %d\n", i,  i,j,a[j]);
+                if (a[i] > a[j]) {
+                    int temp = a[i];
+                    a[i] = a[j];
+                    a[j] = temp;
+                }
+            }
+        }
+    }
+
     public static String convertArrayToString(int arr[]){
         String str = "[";
         for(int i = 0;i<arr.length;i++){
