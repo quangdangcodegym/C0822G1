@@ -16,5 +16,8 @@ public class MainOOP {
 
         StopWatch stopWatch = new StopWatch();
         stopWatch.runStopWatch();
+
+        Rectangle rectangle = new Rectangle();
+
     }
 }

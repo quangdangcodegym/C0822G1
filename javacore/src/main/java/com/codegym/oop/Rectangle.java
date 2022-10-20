@@ -1,6 +1,7 @@
 package com.codegym.oop;
 
 public class Rectangle {
+
     // access modifier: public, protectic, private, defaul;
     double width;
     double height;
