@@ -25,7 +25,7 @@ class Student {
     }
 
     public static void main(String[] args) {
-        Student s1 = new Student("bbb");
+        Student s1 = new Student("bbb NHAN AAAAAAAAAA");
         System.out.println(s1.toString());
 
 
