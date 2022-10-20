@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Array/Array.iml" filepath="$PROJECT_DIR$/Array/Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arrayy/Arrayy.iml" filepath="$PROJECT_DIR$/Arrayy/Arrayy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BMI/BMI.iml" filepath="$PROJECT_DIR$/BMI/BMI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObjectOOP/StaticCar/CircleClass/CircleClass.iml" filepath="$PROJECT_DIR$/ObjectOOP/StaticCar/CircleClass/CircleClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObjectOOP/CircleClasses/CircleClasses.iml" filepath="$PROJECT_DIR$/ObjectOOP/CircleClasses/CircleClasses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConvertCurrency/ConvertCurrency.iml" filepath="$PROJECT_DIR$/ConvertCurrency/ConvertCurrency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObjectOOP/FanClass/FanClass.iml" filepath="$PROJECT_DIR$/ObjectOOP/FanClass/FanClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LimitPrimeNumber/LimitPrimeNumber.iml" filepath="$PROJECT_DIR$/LimitPrimeNumber/LimitPrimeNumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObjectOOP/MyClass/MyClass.iml" filepath="$PROJECT_DIR$/ObjectOOP/MyClass/MyClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NewJava.iml" filepath="$PROJECT_DIR$/NewJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NumberToText/NumberToText.iml" filepath="$PROJECT_DIR$/NumberToText/NumberToText.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObjectOOP/ObjectOOP.iml" filepath="$PROJECT_DIR$/ObjectOOP/ObjectOOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObjectOOP/PackagePractice/PackagePractice.iml" filepath="$PROJECT_DIR$/ObjectOOP/PackagePractice/PackagePractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObjectOOP/QuadraticEquation/QuadraticEquation.iml" filepath="$PROJECT_DIR$/ObjectOOP/QuadraticEquation/QuadraticEquation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObjectOOP/Rectange/Rectange.iml" filepath="$PROJECT_DIR$/ObjectOOP/Rectange/Rectange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ShowGeogetry/ShowGeogetry.iml" filepath="$PROJECT_DIR$/ShowGeogetry/ShowGeogetry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ShowHello/ShowHello.iml" filepath="$PROJECT_DIR$/ShowHello/ShowHello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ShowPrimeNumber/ShowPrimeNumber.iml" filepath="$PROJECT_DIR$/ShowPrimeNumber/ShowPrimeNumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ShowPrimeNumberr/ShowPrimeNumberr.iml" filepath="$PROJECT_DIR$/ShowPrimeNumberr/ShowPrimeNumberr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObjectOOP/StaticCar/StaticCar.iml" filepath="$PROJECT_DIR$/ObjectOOP/StaticCar/StaticCar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObjectOOP/StaticFake/StaticFake.iml" filepath="$PROJECT_DIR$/ObjectOOP/StaticFake/StaticFake.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObjectOOP/StopWatch/StopWatch.iml" filepath="$PROJECT_DIR$/ObjectOOP/StopWatch/StopWatch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObjectOOP/Student/Student.iml" filepath="$PROJECT_DIR$/ObjectOOP/Student/Student.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObjectOOP/StudentStatic/StudentStatic.iml" filepath="$PROJECT_DIR$/ObjectOOP/StudentStatic/StudentStatic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SystemTime/SystemTime.iml" filepath="$PROJECT_DIR$/SystemTime/SystemTime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SystemTimeNew/SystemTimeNew.iml" filepath="$PROJECT_DIR$/SystemTimeNew/SystemTimeNew.iml" />
+      <module fileurl="file://$PROJECT_DIR$/giai-pt-bac-nhat/giai-pt-bac-nhat.iml" filepath="$PROJECT_DIR$/giai-pt-bac-nhat/giai-pt-bac-nhat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/helloProgram/helloProgram.iml" filepath="$PROJECT_DIR$/helloProgram/helloProgram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nam-nhuan/nam-nhuan.iml" filepath="$PROJECT_DIR$/nam-nhuan/nam-nhuan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ngay-thang/ngay-thang.iml" filepath="$PROJECT_DIR$/ngay-thang/ngay-thang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/operator-expression/operator-expression.iml" filepath="$PROJECT_DIR$/operator-expression/operator-expression.iml" />
+      <module fileurl="file://$PROJECT_DIR$/operator-expression-new/operator-expression-new.iml" filepath="$PROJECT_DIR$/operator-expression-new/operator-expression-new.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SystemTime/variable-dataType/variable-dataType.iml" filepath="$PROJECT_DIR$/SystemTime/variable-dataType/variable-dataType.iml" />
+      <module fileurl="file://$PROJECT_DIR$/variable-datatype/variable-datatype.iml" filepath="$PROJECT_DIR$/variable-datatype/variable-datatype.iml" />
+    </modules>
+  </component>
+</project>
