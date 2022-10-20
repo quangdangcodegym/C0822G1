@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e056535d-82d7-4316-8c10-214b094b0158" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/accessmodifier/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/utils/Helper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/oop/MainOOP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/oop/MainOOP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/oop/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/oop/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/oop/MainOOP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/oop/MainOOP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/oop/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/oop/Rectangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/oop/StopWatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/oop/StopWatch.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +144,7 @@
       <workItem from="1665970283539" duration="5001000" />
       <workItem from="1666054982493" duration="8010000" />
       <workItem from="1666141995528" duration="7047000" />
-      <workItem from="1666228060853" duration="3754000" />
+      <workItem from="1666228060853" duration="4166000" />
     </task>
     <servers />
   </component>
