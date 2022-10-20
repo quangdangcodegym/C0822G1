@@ -1,13 +1,42 @@
 package com.codegym.arrayandmethod;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ArrayAndMethod {
     public static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
-//        int [] a = new int[10];
+        int[] arr = {4, 5, 7, 8,3};
 
+
+        int [] arrNew2 = removeElementFromArray(arr, 4);
+        System.out.println(convertArrayToString(arrNew2));
     }
+
+    private static int [] removeElementFromArray(int[] arr, int index) {
+        int[] arrNew2 = Arrays.copyOf(arr, arr.length-1);
+        if (index < arr.length - 1 && index >= 0) {
+            for (int i = 0; i < arrNew2.length; i++){
+                if (i >= index){
+                    arrNew2[i] = arr[i+1];
+                }
+            }
+        }
+        return arrNew2;
+    }
+
+    public static void addElementToArray(int arr[],int index, int value){
+        int [] arrNew = Arrays.copyOf(arr, arr.length + 1);
+        for (int i = 0; i < arrNew.length; i++) {
+            if (i == index) {
+                arrNew[i] = value;
+            }
+            if (i > index) {
+                arrNew[i] = arr[i - 1];
+            }
+        }
+    }
+
     public static void reverseArrayView(){
         int [] arr = inputArray();
         System.out.println(convertArrayToString(arr));
@@ -43,9 +72,31 @@ public class ArrayAndMethod {
             int item = scanner.nextInt();
             arr[i] = item;
         }
-
         return arr;
     }
+    public static int[] inputArrayRandom(){
+        System.out.println("Nhập số lương phần tử của mảng: ");
+        int size = Integer.parseInt(scanner.nextLine());
+        int [] arr = new int[size];
+        for(int i=0;i<arr.length;i++){
+            arr[i] = (int) (Math.random() * (size - 1)) + 1;
+        }
+        return arr;
+    }
+
+    public static void sortArray(int a[]) {
+        for (int i = 0; i < a.length-1; i++) {
+            for (int j = i + 1; j < a.length; j++) {
+                System.out.printf("a[%d] arr[%d][%d]: %d\n", i,  i,j,a[j]);
+                if (a[i] > a[j]) {
+                    int temp = a[i];
+                    a[i] = a[j];
+                    a[j] = temp;
+                }
+            }
+        }
+    }
+
     public static String convertArrayToString(int arr[]){
         String str = "[";
         for(int i = 0;i<arr.length;i++){
