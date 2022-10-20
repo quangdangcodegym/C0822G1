@@ -6,9 +6,7 @@ public class VongLap2Chieu {
     public static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-
         countCharInStringView();
-
     }
 
     public static void launch() {
