@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e056535d-82d7-4316-8c10-214b094b0158" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_10_01_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_10_01_AM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_2_29_PM_[Changes]/ArrayAdvanced.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_2_29_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_2_29_PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/StaticProperty/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/StaticProperty/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/oop/MainOOP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/oop/MainOOP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/StaticProperty/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/StaticProperty/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/accessmodifier/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/accessmodifier/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/Geometric.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/Geometric.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/TestCircleRectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/TestCircleRectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/oop/MainOOP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/oop/MainOOP.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +34,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="thien-dev" />
+        <entry key="$PROJECT_DIR$/.." value="nhan-dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -44,7 +56,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/CODEGYM/CODEGYM/C0822G1/javacore&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CODEGYM/CODEGYM/C0622K1/helloc6/helloc6&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -57,7 +69,7 @@
       <recent name="D:\CODEGYM\CODEGYM\C0822G1\javacore\src\main\java\com\codegym\hellojava" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Student">
+  <component name="RunManager" selected="Application.MainOOP">
     <configuration name="Array2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codegym.array2.Array2" />
       <module name="javacore" />
@@ -125,10 +137,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Student" />
         <item itemvalue="Application.MainOOP" />
-        <item itemvalue="Application.ArrayAndMethod" />
         <item itemvalue="Application.VongLap2Chieu" />
+        <item itemvalue="Application.Student" />
+        <item itemvalue="Application.ArrayAndMethod" />
         <item itemvalue="Application.Array2" />
       </list>
     </recent_temporary>
@@ -151,6 +163,9 @@
       <workItem from="1666228060853" duration="4166000" />
       <workItem from="1666234947488" duration="21000" />
       <workItem from="1666241671846" duration="19000" />
+      <workItem from="1666358865278" duration="33000" />
+      <workItem from="1666424396617" duration="349000" />
+      <workItem from="1666580878742" duration="1288000" />
     </task>
     <servers />
   </component>

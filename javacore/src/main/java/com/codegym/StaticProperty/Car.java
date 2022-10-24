@@ -9,8 +9,6 @@ public class Car {
 
     public static int numberOfCars;
 
-
-
     public Car(String name, String engine) {
 
         this.name = name;
