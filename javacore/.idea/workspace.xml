@@ -5,30 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9391c656-8875-4fd8-b8f1-4e3f14032560" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inteeFaces/inteeFaces.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inteeFaces/src/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inteeFaces/src/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inteeFaces/src/Chicken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inteeFaces/src/Edible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inteeFaces/src/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inteeFaces/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inteeFaces/src/Tiger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/oop/AbstractAndInterFacesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/oop/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/oop/Chicken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/oop/Edible/Edible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/oop/Tiger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_2_29_PM_[Changes]/ArrayAdvanced.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_2_29_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_2_29_PM__Changes_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interFaces/src/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interFaces/src/Experience.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interFaces/src/Fresher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interFaces/src/Intern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/accessmodifier/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/utils/Helper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/accessmodifier/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/utils/Helper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inteeFaces/inteeFaces.iml" beforeDir="false" afterPath="$PROJECT_DIR$/interFaces/inteeFaces.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inteeFaces/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/interFaces/src/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inteeFaces/src/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/interFaces/src/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inteeFaces/src/Chicken.java" beforeDir="false" afterPath="$PROJECT_DIR$/interFaces/src/Chicken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inteeFaces/src/Edible.java" beforeDir="false" afterPath="$PROJECT_DIR$/interFaces/src/Edible.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inteeFaces/src/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/interFaces/src/Fruit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inteeFaces/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/interFaces/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inteeFaces/src/Orange.java" beforeDir="false" afterPath="$PROJECT_DIR$/interFaces/src/Orange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inteeFaces/src/Tiger.java" beforeDir="false" afterPath="$PROJECT_DIR$/interFaces/src/Tiger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +64,9 @@
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
   <component name="RebelAgentSelection">
@@ -128,7 +122,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666597444585</updated>
-      <workItem from="1666597447060" duration="5021000" />
+      <workItem from="1666597447060" duration="5874000" />
+      <workItem from="1666616358140" duration="4973000" />
     </task>
     <servers />
   </component>
