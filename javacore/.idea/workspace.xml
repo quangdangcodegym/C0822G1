@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e056535d-82d7-4316-8c10-214b094b0158" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_10_01_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_10_01_AM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_2_29_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_2_29_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/Testgit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/array2hoang/VongLap2Chieu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/array2hoang/VongLap2Chieu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/array2/Array2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/array2hoang/VongLap2Chieu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/arrayandmethod/ArrayAndMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/hellojava/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/introducejava/IntroduceJava.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/oop/MainOOP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/oop/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/oop/StopWatch.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,33 +32,35 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2G0tBXLC59NGFGR3ynilVdCzprE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/CODEGYM/CODEGYM/C0822G1/javacore",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CODEGYM/CODEGYM/C0822G1/javacore&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\CODEGYM\CODEGYM\C0822G1\javacore\src\main\java\com\codegym\hellojava" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VongLap2Chieu">
+  <component name="RunManager">
     <configuration name="ArrayAndMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codegym.arrayandmethod.ArrayAndMethod" />
       <module name="javacore" />

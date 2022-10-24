@@ -1,9 +1,0 @@
-<changelist name="Uncommitted_changes_before_Checkout_at_14_10_2022_2_29_PM_[Changes]" date="1665732569527" recycled="true" deleted="true">
-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_2_29_PM_[Changes]/shelved.patch" />
-  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 14/10/2022 2:29 PM [Changes]" />
-  <binary>
-    <option name="BEFORE_PATH" />
-    <option name="AFTER_PATH" value="target/classes/com/codegym/arrayadvanced/ArrayAdvanced.class" />
-    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_2_29_PM_[Changes]/ArrayAdvanced.class" />
-  </binary>
-</changelist>
