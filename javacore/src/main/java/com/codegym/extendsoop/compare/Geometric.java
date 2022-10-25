@@ -1,4 +1,4 @@
-package com.codegym.extendsoop;
+package com.codegym.extendsoop.compare;
 
 public class Geometric {
     private String color = "white";

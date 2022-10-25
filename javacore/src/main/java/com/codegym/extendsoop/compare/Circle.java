@@ -1,6 +1,6 @@
-package com.codegym.extendsoop;
+package com.codegym.extendsoop.compare;
 
-public class Circle extends Geometric {
+public class Circle extends Geometric implements MyCompareble {
     private double radius;
 
     public  Circle() {
@@ -40,5 +40,22 @@ public class Circle extends Geometric {
 
     public void printCircle() {
         System.out.println("The " + getColor() + " circle is created with the radius is " + radius);
+    }
+
+    @Override
+    public String toString() {
+        return "Area: " + getRadius();
+    }
+
+    @Override
+    public int CompareTo(Object c1) {
+        Circle c = (Circle) c1;
+        if (this.getRadius() >= c.getRadius()) {
+            return 1;
+        }
+        else
+        {
+            return -1;
+        }
     }
 }
