@@ -1,6 +1,6 @@
 package OOP;
 
-public class Circle extends Geometric {
+public class Circle extends Geometric implements Comparable {
     private double radius;
 
     public Circle() {
@@ -33,5 +33,16 @@ public class Circle extends Geometric {
     public void printCircle(){
         System.out.printf("Circle with: %f radius, %f diameter, %f area, %f perimeter, %s", getRadius(), getDiameter(), getArea(), getPerimeter(), getColor());
         System.out.println();
+    }
+
+    @Override
+    public int compareTo(Object obj) {
+        Circle c1 = (Circle) obj;
+        if (this.getRadius() >= c1.getRadius()){
+            return 1;
+        } else {
+            return -1;
+        }
+
     }
 }
