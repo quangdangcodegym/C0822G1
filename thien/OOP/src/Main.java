@@ -4,6 +4,9 @@ import OOP.Point3d;
 import OOP.Rectangle;
 import OOP.interfaces.Comparable;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -33,22 +36,10 @@ public class Main {
         circles[3] = new Circle(37);
         circles[4] = new Circle(23);
         sort(circles);
-        System.out.println(circles);
+        System.out.println(Arrays.toString(circles));
 
     }
 
-    //    public static void sort(Circle[] circles) {
-//        for (int i = 0; i < circles.length - 1; i++) {
-//            for (int j = i + 1; j < circles.length; j++) {
-//                Comparable circle = (Comparable) circles[i];
-//                if (circle.compareTo(circles[j]) == 1) {
-//                    Circle temp = circles[i];
-//                    circles[i] = circles[j];
-//                    circles[j] = temp;
-//                }
-//            }
-//        }
-//    }
     public static void sort(Circle[] circles) {
         for (int i = 0; i < circles.length - 1; i++) {
             for (int j = i + 1; j < circles.length; j++) {

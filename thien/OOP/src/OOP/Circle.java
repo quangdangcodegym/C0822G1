@@ -1,5 +1,9 @@
 package OOP;
 
+import OOP.interfaces.Comparable;
+
+import java.util.Arrays;
+
 public class Circle extends Geometric implements Comparable {
     private double radius;
 
@@ -36,6 +40,11 @@ public class Circle extends Geometric implements Comparable {
     }
 
     @Override
+    public String toString() {
+        return "Radius: " + getRadius();
+    }
+
+    @Override
     public int compareTo(Object obj) {
         Circle c1 = (Circle) obj;
         if (this.getRadius() >= c1.getRadius()){
@@ -44,5 +53,28 @@ public class Circle extends Geometric implements Comparable {
             return -1;
         }
 
+    }
+    public static void sort(Circle[] circles) {
+        for (int i = 0; i < circles.length - 1; i++) {
+            for (int j = i + 1; j < circles.length; j++) {
+                Comparable circle = (Comparable) circles[i];
+                if (circle.compareTo(circles[j]) == 1) {
+                    Circle temp = circles[i];
+                    circles[i] = circles[j];
+                    circles[j] = temp;
+                }
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        Circle[] circles = new Circle[5];
+        circles[0] = new Circle(2);
+        circles[1] = new Circle(12);
+        circles[2] = new Circle(4);
+        circles[3] = new Circle(37);
+        circles[4] = new Circle(23);
+        sort(circles);
+        System.out.println(Arrays.toString(circles));
     }
 }
