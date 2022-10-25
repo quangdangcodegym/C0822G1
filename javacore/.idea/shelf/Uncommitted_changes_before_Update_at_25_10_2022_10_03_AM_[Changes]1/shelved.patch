@@ -1,0 +1,493 @@
+Index: src/main/java/com/codegym/extendsoop/Abstract/Geometry.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/codegym/extendsoop/Abstract/Geometry.java b/src/main/java/com/codegym/extendsoop/Abstract/Geometry.java
+--- a/src/main/java/com/codegym/extendsoop/Abstract/Geometry.java	
++++ b/src/main/java/com/codegym/extendsoop/Abstract/Geometry.java	
+@@ -7,6 +7,9 @@
+         this.toaDo = toaDo;
+     }
+ 
++    public Geometry() {
++
++    }
+     public CreateDegrees getToaDo() {
+         return toaDo;
+     }
+@@ -16,4 +19,13 @@
+     }
+ 
+     public abstract double Area();
++
++    /**
++     - Trong lớp trừu trương có phương thức trừu tượng, phương thức trừu là phương
++     thức chỉ khai báo mà không có phần thân
++     - Có phương thức và thuộc tính
++     - Vẫn có hàm khởi tạo nhưng không ta được đối tượng. Không sử dụng được từ khóa new
++     - Phương thức trừu tượng thì access modifier không thể là final
++     - 1 lớp có phương thức truu tuong thi lop do phai la lop truu tuong
++     */
+ }
+Index: src/main/java/com/codegym/extendsoop/Abstract/Rectangle.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/codegym/extendsoop/Abstract/Rectangle.java b/src/main/java/com/codegym/extendsoop/compare/Rectangle.java
+rename from src/main/java/com/codegym/extendsoop/Abstract/Rectangle.java
+rename to src/main/java/com/codegym/extendsoop/compare/Rectangle.java
+--- a/src/main/java/com/codegym/extendsoop/Abstract/Rectangle.java	
++++ b/src/main/java/com/codegym/extendsoop/compare/Rectangle.java	
+@@ -1,6 +1,9 @@
+-package com.codegym.extendsoop.Abstract;
++package com.codegym.extendsoop.compare;
+ 
+-public class Rectangle extends Geometry{
++import com.codegym.extendsoop.Abstract.CreateDegrees;
++import com.codegym.extendsoop.Abstract.Geometry;
++
++public class Rectangle extends Geometry implements MyCompareble{
+     private double  width;
+     private double height;
+ 
+@@ -10,8 +13,35 @@
+         this.height = chieuCao;
+     }
+ 
++    public Rectangle(double dai, double rong) {
++        super();
++        this.width = dai;
++        this.height = rong;
++    }
++    public Rectangle(){
++        super();
++
++    }
++
+     @Override
+-    public double tinhDienTich() {
++    public double Area() {
+         return this.width*this.height;
+     }
++
++    @Override
++    public String toString() {
++        return "Area: " + this.Area();
++    }
++
++    @Override
++    public int CompareTo(Object c) {
++        Rectangle c1 = (Rectangle) c;
++        if (this.Area() >= c1.Area()) {
++            return 1;
++        }
++        else
++        {
++            return -1;
++        }
++    }
+ }
+Index: src/main/java/com/codegym/extendsoop/Geometric.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/codegym/extendsoop/Geometric.java b/src/main/java/com/codegym/extendsoop/compare/Geometric.java
+rename from src/main/java/com/codegym/extendsoop/Geometric.java
+rename to src/main/java/com/codegym/extendsoop/compare/Geometric.java
+--- a/src/main/java/com/codegym/extendsoop/Geometric.java	
++++ b/src/main/java/com/codegym/extendsoop/compare/Geometric.java	
+@@ -1,4 +1,4 @@
+-package com.codegym.extendsoop;
++package com.codegym.extendsoop.compare;
+ 
+ public class Geometric {
+     private String color = "white";
+Index: src/main/java/com/codegym/extendsoop/Circle.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/codegym/extendsoop/Circle.java b/src/main/java/com/codegym/extendsoop/compare/Circle.java
+rename from src/main/java/com/codegym/extendsoop/Circle.java
+rename to src/main/java/com/codegym/extendsoop/compare/Circle.java
+--- a/src/main/java/com/codegym/extendsoop/Circle.java	
++++ b/src/main/java/com/codegym/extendsoop/compare/Circle.java	
+@@ -1,6 +1,6 @@
+-package com.codegym.extendsoop;
++package com.codegym.extendsoop.compare;
+ 
+-public class Circle extends Geometric {
++public class Circle extends Geometric implements MyCompareble {
+     private double radius;
+ 
+     public  Circle() {
+@@ -41,4 +41,21 @@
+     public void printCircle() {
+         System.out.println("The " + getColor() + " circle is created with the radius is " + radius);
+     }
++
++    @Override
++    public String toString() {
++        return "Area: " + getRadius();
++    }
++
++    @Override
++    public int CompareTo(Object c1) {
++        Circle c = (Circle) c1;
++        if (this.getRadius() >= c.getRadius()) {
++            return 1;
++        }
++        else
++        {
++            return -1;
++        }
++    }
+ }
+Index: src/main/java/com/codegym/extendsoop/compare/MyArrays.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/codegym/extendsoop/compare/MyArrays.java b/src/main/java/com/codegym/extendsoop/compare/MyArrays.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/com/codegym/extendsoop/compare/MyArrays.java	
+@@ -0,0 +1,61 @@
++package com.codegym.extendsoop.compare;
++
++import java.util.Arrays;
++
++public class MyArrays {
++    public static void main(String[] args) {
++//        Circle[] circles = new Circle[5];
++//
++//        circles[0] = new Circle(7);
++//        circles[1] = new Circle(1);
++//        circles[2] = new Circle(4);
++//        circles[3] = new Circle(5);
++//        circles[4] = new Circle(7);
++//
++//        mySort(circles);
++//        System.out.println(Arrays.toString(circles));
++        Rectangle[] rectangles = new Rectangle[3];
++        rectangles[0] = new Rectangle(2, 3);
++        rectangles[1] = new Rectangle(3, 3);
++        rectangles[2] = new Rectangle(1, 2);
++
++        mySort(rectangles);
++        System.out.println(Arrays.toString(rectangles));
++
++
++
++    }
++
++    public static void sort(Circle[] a) {
++        for (int i = 0; i < a.length - 1; i++) {
++            for (int j = i + 1; j < a.length; j++) {
++                MyCompareble a1 = (MyCompareble) a[i];
++                if (a1.CompareTo(a[j])==1) {
++                    Circle temp = a[i];
++                    a[i] = a[j];
++                    a[j] = temp;
++                }
++            }
++        }
++    }
++
++    public static void mySort(Object[] a) {
++        for (int i = 0; i < a.length - 1; i++) {
++            for (int j = i + 1; j < a.length; j++) {
++                MyCompareble a1 = (MyCompareble) a[i];
++                if(a1.CompareTo(a[j])==1){
++                    Object temp = a[i];
++                    a[i] = a[j];
++                    a[j] = temp;
++                }
++            }
++        }
++    }
++
++    private static void mySwap(Circle c1, Circle c2) {
++        Circle temp = c1;
++        c1 = c2;
++        c2 = temp;
++    }
++
++}
+Index: src/main/java/com/codegym/extendsoop/Abstract/Test.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/codegym/extendsoop/Abstract/Test.java b/src/main/java/com/codegym/extendsoop/Abstract/Test.java
+--- a/src/main/java/com/codegym/extendsoop/Abstract/Test.java	
++++ b/src/main/java/com/codegym/extendsoop/Abstract/Test.java	
+@@ -1,19 +1,21 @@
+ package com.codegym.extendsoop.Abstract;
+ 
++import com.codegym.extendsoop.compare.Rectangle;
++
+ public class Test {
+     public static void main(String[] args) {
+         CreateDegrees td1 = new CreateDegrees(5, 5);
+         CreateDegrees td2 = new CreateDegrees(7, 9);
+         CreateDegrees td3 = new CreateDegrees(12, 1);
+ 
+-        Geometry h1 = new Point(td1);
++//        Geometry h1 = new Point(td1);
+ 
+         Geometry h2 = new Circle(td2, 10);
+ 
+         Geometry h3 = new Rectangle(td3, 5, 10);
+ 
+-        System.out.println("S1: "+h1.tinhDienTich());
+-        System.out.println("S2: "+h2.tinhDienTich());
+-        System.out.println("S3: "+h3.tinhDienTich());
++//        System.out.println("S1: "+h1.tinhDienTich());
++//        System.out.println("S2: "+h2.tinhDienTich());
++//        System.out.println("S3: "+h3.tinhDienTich());
+     }
+ }
+Index: src/main/java/com/codegym/extendsoop/Abstract/Point.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/codegym/extendsoop/Abstract/Point.java b/src/main/java/com/codegym/extendsoop/Abstract/Point.java
+--- a/src/main/java/com/codegym/extendsoop/Abstract/Point.java	
++++ b/src/main/java/com/codegym/extendsoop/Abstract/Point.java	
+@@ -1,10 +1,10 @@
+ package com.codegym.extendsoop.Abstract;
+ 
+-public class Point extends Geometry{
+-    public Point(CreateDegrees toaDo) {
+-        super(toaDo);
+-    }
+-    public double tinhDienTich() {
+-        return 1;
+-    }
+-}
++//public class Point extends Geometry{
++//    public Point(CreateDegrees toaDo) {
++//        super(toaDo);
++//    }
++//    public double tinhDienTich() {
++//        return 1;
++//    }
++//}
+Index: src/main/java/com/codegym/extendsoop/myinterface/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/codegym/extendsoop/myinterface/Main.java b/src/main/java/com/codegym/extendsoop/myinterface/Main.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/com/codegym/extendsoop/myinterface/Main.java	
+@@ -0,0 +1,53 @@
++package com.codegym.extendsoop.myinterface;
++
++public class Main {
++    public interface Flyable {
++        public int NUMBER = 1;
++        String howtoFly();
++        /**
++         - Chua cac hang so va phuong thuc abstract
++         - Trong interface mac dinh dinh la public abstract
++         - Khong the tao doi tuong tu interface
++         - Khi tao interface thi dong thoi tao ra 1 kieu du lieu moi
++         - Interface la gi: cau truc tuong tu lop
++         - Khi nao su dung interface:
++            + Ho tro da ke thua
++            + Ap dung doi voi cac lop con khong lien quan den nhau
++         */
++    }
++
++    public abstract static class Animal{
++        public abstract String howtoSleep();
++    }
++
++    public static class Bird extends Animal implements Flyable{
++
++        @Override
++        public String howtoFly() {
++            return "bird fly by bird's wings: " + NUMBER;
++        }
++
++        @Override
++        public String howtoSleep() {
++
++            return "Sleep";
++        }
++    }
++    public static class Fly implements Flyable{
++
++        @Override
++        public String howtoFly() {
++            return "Fly use engine and fly's wings";
++        }
++    }
++
++    public static void main(String[] args) {
++        Bird bird =new Bird();
++        Fly fly = new Fly();
++        System.out.println(fly.howtoFly());
++        System.out.println(bird.howtoFly());
++    }
++}
++
++
++
+Index: src/main/java/com/codegym/extendsoop/compare/MyCompareble.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/codegym/extendsoop/compare/MyCompareble.java b/src/main/java/com/codegym/extendsoop/compare/MyCompareble.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/com/codegym/extendsoop/compare/MyCompareble.java	
+@@ -0,0 +1,5 @@
++package com.codegym.extendsoop.compare;
++
++public interface MyCompareble {
++    public int CompareTo(Object c);
++}
+Index: .idea/uiDesigner.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/uiDesigner.xml b/.idea/uiDesigner.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/uiDesigner.xml	
+@@ -0,0 +1,124 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Palette2">
++    <group name="Swing">
++      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
++      </item>
++      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.svg" removable="false" auto-create-binding="false" can-attach-label="true">
++        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
++        <initial-values>
++          <property name="text" value="Button" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="RadioButton" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="CheckBox" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="Label" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
++          <preferred-size width="-1" height="20" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
++      </item>
++    </group>
++  </component>
++</project>
+\ No newline at end of file

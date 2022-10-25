@@ -10,10 +10,19 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/oop/Geometric.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../thien/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/oop/MainOOP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/oop/MainOOP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/oop/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/oop/Rectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/oop/MainOOP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/oop/MainOOP.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/oop/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/oop/Rectangle.class" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/compare/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/compare/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/compare/Geometric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/compare/Geometric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/compare/MyArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/compare/MyArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/compare/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/compare/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/compare/Geometric.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/compare/Geometric.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/compare/MyArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/compare/MyArrays.class" afterDir="false" />
+>>>>>>> nhan-dev
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +55,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -58,13 +68,32 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/CODEGYM/CODEGYM/C0822G1/javacore",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
+>>>>>>> nhan-dev
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Module2\C0822G1\javacore\src\main\java\com\codegym\extendsoop" />
       <recent name="D:\CODEGYM\CODEGYM\C0822G1\javacore\src\main\java\com\codegym\hellojava" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.codegym.extendsoop" />
+    </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.MainOOP">
     <configuration name="Array2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codegym.array2.Array2" />
@@ -92,12 +121,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+=======
+  <component name="RunManager" selected="Application.MyArrays">
+>>>>>>> nhan-dev
     <configuration name="MainOOP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codegym.oop.MainOOP" />
       <module name="javacore" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.codegym.oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.extendsoop.compare.MyArrays" />
+      <module name="javacore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codegym.extendsoop.compare.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +163,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VongLap2Chieu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.array2hoang.VongLap2Chieu" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.extendsoop.Abstract.Test" />
       <module name="javacore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.array2hoang.*" />
+          <option name="PATTERN" value="com.codegym.extendsoop.Abstract.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCircleRectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.extendsoop.TestCircleRectangle" />
+      <module name="javacore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codegym.extendsoop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +191,19 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Application.MainOOP" />
         <item itemvalue="Application.VongLap2Chieu" />
         <item itemvalue="Application.Student" />
         <item itemvalue="Application.ArrayAndMethod" />
         <item itemvalue="Application.Array2" />
+=======
+        <item itemvalue="Application.MyArrays" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TestCircleRectangle" />
+        <item itemvalue="Application.Student" />
+        <item itemvalue="Application.MainOOP" />
+>>>>>>> nhan-dev
       </list>
     </recent_temporary>
   </component>
@@ -159,9 +225,16 @@
       <workItem from="1666228060853" duration="4166000" />
       <workItem from="1666234947488" duration="21000" />
       <workItem from="1666241671846" duration="19000" />
+<<<<<<< HEAD
       <workItem from="1666358865278" duration="33000" />
       <workItem from="1666424396617" duration="349000" />
       <workItem from="1666580878742" duration="1288000" />
+=======
+      <workItem from="1666314698352" duration="2530000" />
+      <workItem from="1666512067576" duration="703000" />
+      <workItem from="1666618601263" duration="3464000" />
+      <workItem from="1666675854908" duration="915000" />
+>>>>>>> nhan-dev
     </task>
     <servers />
   </component>
