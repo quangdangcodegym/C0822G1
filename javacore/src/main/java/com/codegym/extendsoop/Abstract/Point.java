@@ -4,7 +4,7 @@ public class Point extends Geometry{
     public Point(CreateDegrees toaDo) {
         super(toaDo);
     }
-    public double tinhDienTich() {
+    public double Area() {
         return 1;
     }
 }

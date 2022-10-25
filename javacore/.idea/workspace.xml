@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e056535d-82d7-4316-8c10-214b094b0158" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/Abstract/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/Abstract/CreateDegrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/Abstract/Geometry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/Abstract/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/Abstract/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/Abstract/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e056535d-82d7-4316-8c10-214b094b0158" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -163,7 +155,7 @@
       <workItem from="1666241671846" duration="19000" />
       <workItem from="1666314698352" duration="2530000" />
       <workItem from="1666512067576" duration="703000" />
-      <workItem from="1666618601263" duration="2678000" />
+      <workItem from="1666618601263" duration="3464000" />
     </task>
     <servers />
   </component>

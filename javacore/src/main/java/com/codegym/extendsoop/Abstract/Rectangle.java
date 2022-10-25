@@ -11,7 +11,7 @@ public class Rectangle extends Geometry{
     }
 
     @Override
-    public double tinhDienTich() {
+    public double Area() {
         return this.width*this.height;
     }
 }

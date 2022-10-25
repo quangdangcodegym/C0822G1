@@ -17,7 +17,7 @@ public class Circle extends Geometry{
     }
 
     @Override
-    public double tinhDienTich() {
+    public double Area() {
         return Math.PI*this.r*this.r;
     }
 }
