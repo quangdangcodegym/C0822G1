@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e056535d-82d7-4316-8c10-214b094b0158" name="Changes" comment="" />
+    <list default="true" id="e056535d-82d7-4316-8c10-214b094b0158" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/compare/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/compare/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/compare/Geometric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/compare/Geometric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/compare/MyArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/compare/MyArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/compare/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/compare/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/compare/Geometric.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/compare/Geometric.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/compare/MyArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/compare/MyArrays.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,20 +44,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Module2/C0822G1/javacore&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/CODEGYM/CODEGYM/C0822G1/javacore",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Module2\C0822G1\javacore\src\main\java\com\codegym\extendsoop" />
@@ -59,13 +67,13 @@
       <recent name="com.codegym.extendsoop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="ArrayAndMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.arrayandmethod.ArrayAndMethod" />
+  <component name="RunManager" selected="Application.MyArrays">
+    <configuration name="MainOOP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.oop.MainOOP" />
       <module name="javacore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.arrayandmethod.*" />
+          <option name="PATTERN" value="com.codegym.oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainOOP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.oop.MainOOP" />
+    <configuration name="MyArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.extendsoop.compare.MyArrays" />
       <module name="javacore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.oop.*" />
+          <option name="PATTERN" value="com.codegym.extendsoop.compare.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyArrays" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.TestCircleRectangle" />
         <item itemvalue="Application.Student" />
         <item itemvalue="Application.MainOOP" />
-        <item itemvalue="Application.ArrayAndMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -156,6 +164,7 @@
       <workItem from="1666314698352" duration="2530000" />
       <workItem from="1666512067576" duration="703000" />
       <workItem from="1666618601263" duration="3464000" />
+      <workItem from="1666675854908" duration="915000" />
     </task>
     <servers />
   </component>

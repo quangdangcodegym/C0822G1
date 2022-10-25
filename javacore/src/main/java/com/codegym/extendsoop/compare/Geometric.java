@@ -29,8 +29,5 @@ public class Geometric {
         this.filled = filled;
     }
 
-    public String toString() {
-        return "created with \"" + color + "\" color and " +
-                (filled == null ? "no fill" : "filled with \"" + filled + "\" color");
-    }
+
 }
