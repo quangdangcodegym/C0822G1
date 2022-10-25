@@ -5,19 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e056535d-82d7-4316-8c10-214b094b0158" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_10_01_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_10_01_AM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_2_29_PM_[Changes]/ArrayAdvanced.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_2_29_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_2_29_PM__Changes_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/designpattern/builder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/designpattern/template/MyArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/oop/Geometric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thien/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/StaticProperty/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/StaticProperty/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/oop/MainOOP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/oop/MainOOP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/StaticProperty/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/StaticProperty/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/accessmodifier/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/accessmodifier/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/Circle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/Geometric.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/Geometric.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/TestCircleRectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/TestCircleRectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/oop/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/oop/Rectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/oop/MainOOP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/oop/MainOOP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/oop/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/oop/Rectangle.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

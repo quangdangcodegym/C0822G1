@@ -1,46 +1,18 @@
 package com.codegym.oop;
 
-public class Rectangle {
+public class Rectangle extends Geometric{
 
-    // access modifier: public, protectic, private, defaul;
-    double width;
-    double height;
-    private int a ;
-
-    public int getA(){
-        return this.a;
-    }
-    public void setA( int a){
-         this.a = a;
-    }
-
-    public Rectangle(double width, double height){
-        this.width = width;
-        this.height = height;
-
+    private static Rectangle rectangle;
+    public Rectangle() {
 
     }
-    public Rectangle(){
 
-    }
-    //str = "{'width': 6, 'height': 5}"
-    //str ="6,5"
-    public Rectangle(String str){
-        String[] arrStr = str.split(",");
-        this.width = Double.parseDouble(arrStr[0]);
-        this.height = Double.parseDouble((arrStr[1]));
+    public static Rectangle getInstance() {
+        if (Rectangle.rectangle == null) {
+            Rectangle.rectangle = new Rectangle();
+        }
+        return Rectangle.rectangle;
     }
 
-     double getArea(){
-        int a = 10;
-        this.a = 20;
-         System.out.println(a);
-        double area = this.height*this.width;
-        return area;
-    }
-    public double getPerimeter(){
-        System.out.println(a);
-        double perimeter = (this.height + this.height)*2;
-        return perimeter;
-    }
+
 }
