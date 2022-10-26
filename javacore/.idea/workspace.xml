@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e056535d-82d7-4316-8c10-214b094b0158" name="Changes" comment="" />
+    <list default="true" id="e056535d-82d7-4316-8c10-214b094b0158" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/compare/demo/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/compare/demo/CircleComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/compare/demo/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_10_2022_8_17_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_10_2022_8_17_AM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -20,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="thien-dev" />
+        <entry key="$PROJECT_DIR$/.." value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -42,7 +49,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Module2/C0822G1/javacore&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Module2/Module2_java&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -52,20 +59,16 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Module2\C0822G1\javacore\src\main\java\com\codegym\extendsoop" />
       <recent name="D:\CODEGYM\CODEGYM\C0822G1\javacore\src\main\java\com\codegym\hellojava" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.codegym.extendsoop" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="ArrayAndMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.arrayandmethod.ArrayAndMethod" />
+  <component name="RunManager" selected="Application.CircleComparatorTest">
+    <configuration name="CircleComparatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.extendsoop.compare.demo.CircleComparatorTest" />
       <module name="javacore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.arrayandmethod.*" />
+          <option name="PATTERN" value="com.codegym.extendsoop.compare.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.CircleComparatorTest" />
         <item itemvalue="Application.TestCircleRectangle" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Student" />
         <item itemvalue="Application.MainOOP" />
-        <item itemvalue="Application.ArrayAndMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -151,11 +154,9 @@
       <workItem from="1666054982493" duration="8010000" />
       <workItem from="1666141995528" duration="7047000" />
       <workItem from="1666228060853" duration="4166000" />
-      <workItem from="1666234947488" duration="21000" />
-      <workItem from="1666241671846" duration="19000" />
-      <workItem from="1666314698352" duration="2530000" />
-      <workItem from="1666512067576" duration="703000" />
-      <workItem from="1666618601263" duration="3464000" />
+      <workItem from="1666669877193" duration="2866000" />
+      <workItem from="1666683796684" duration="627000" />
+      <workItem from="1666718108239" duration="641000" />
     </task>
     <servers />
   </component>
