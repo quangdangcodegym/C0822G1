@@ -1,0 +1,31 @@
+Index: src/main/java/com/codegym/extendsoop/compare/Circle.java
+===================================================================
+diff --git a/src/main/java/com/codegym/extendsoop/compare/Circle.java b/src/main/java/com/codegym/extendsoop/compare/Circle.java
+--- a/src/main/java/com/codegym/extendsoop/compare/Circle.java	
++++ b/src/main/java/com/codegym/extendsoop/compare/Circle.java	
+@@ -3,12 +3,11 @@
+ public class Circle extends Geometric implements MyCompareble {
+     private double radius;
+ 
+-    public  Circle() {
++    public Circle() {
+     }
+ 
+ 
+-
+-    public  Circle(double radius) {
++    public Circle(double radius) {
+         this.radius = radius;
+     }
+ 
+@@ -52,9 +51,7 @@
+         Circle c = (Circle) c1;
+         if (this.getRadius() >= c.getRadius()) {
+             return 1;
+-        }
+-        else
+-        {
++        } else {
+             return -1;
+         }
+     }
