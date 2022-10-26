@@ -44,7 +44,7 @@ public class Circle extends Geometric implements MyCompareble {
 
     @Override
     public String toString() {
-        return "Area: " + getRadius();
+        return "Area: " + getRadius() + super.toString();
     }
 
     @Override
