@@ -1,7 +1,8 @@
 package com.codegym.extendsoop.compare.nghiacomparable;
-import com.codegym.extendsoop.compare.Circle;
+
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 public class ComparableCircleTest {
     public static void main(String[] args) {
@@ -18,14 +19,40 @@ public class ComparableCircleTest {
 //            System.out.println(a);
 //        }
 
+//        Circle[] listCircle = new Circle[3];
+//        listCircle[0] = new Circle(7);
+//        listCircle[1] = new Circle(6);
+//        listCircle[2] = new Circle(1);
+////        Arrays.sort(listCircle);
+//        MyArrays.mySort(listCircle);
+//
+//        System.out.println(Arrays.toString(listCircle));
+
         Circle[] listCircle = new Circle[3];
         listCircle[0] = new Circle(7);
         listCircle[1] = new Circle(6);
         listCircle[2] = new Circle(1);
 //        Arrays.sort(listCircle);
-        MyArrays.mySort(listCircle);
+//        Comparator<Object> comparator = new RadicASCComparator();
+
+
+
+        MyArrays.mySort1(listCircle);
+
+//        MyArrays.mySort(listCircle, new Comparator<Object>() {
+//            @Override
+//            public int compare(Object o1, Object o2) {
+//                Circle c1 = (Circle) o1;
+//                Circle c2 = (Circle) o2;
+//                if (c1.getRadius() > c2.getRadius()) return 1;
+//                else if (c1.getRadius() < c2.getRadius()) return -1;
+//                else return 1;
+//            }
+//        });
 
         System.out.println(Arrays.toString(listCircle));
+
+
 
 
 
