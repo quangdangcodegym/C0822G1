@@ -7,9 +7,12 @@
     <list default="true" id="e056535d-82d7-4316-8c10-214b094b0158" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/compare/demo/Circle.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/compare/demo/CircleComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/compare/demo/CircleComparatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/compare/demo/Comparator.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/compare/demo/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_10_2022_8_17_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_10_2022_8_17_AM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/Abstract/Point.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,6 +160,7 @@
       <workItem from="1666669877193" duration="2866000" />
       <workItem from="1666683796684" duration="627000" />
       <workItem from="1666718108239" duration="641000" />
+      <workItem from="1666746843962" duration="519000" />
     </task>
     <servers />
   </component>
