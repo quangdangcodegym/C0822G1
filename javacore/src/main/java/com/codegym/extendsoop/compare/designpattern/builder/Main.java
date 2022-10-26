@@ -1,4 +1,4 @@
-package com.codegym.designpattern.builder;
+package com.codegym.extendsoop.compare.designpattern.builder;
 
 import java.util.Arrays;
 import java.util.Collections;

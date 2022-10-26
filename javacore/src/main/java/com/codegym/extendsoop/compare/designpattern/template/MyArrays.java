@@ -1,4 +1,4 @@
-package com.codegym.designpattern.template;
+package com.codegym.extendsoop.compare.designpattern.template;
 
 public class MyArrays {
     public static void sort(Object[] a) {

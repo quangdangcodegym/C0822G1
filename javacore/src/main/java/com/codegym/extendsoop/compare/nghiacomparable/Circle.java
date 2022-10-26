@@ -1,6 +1,6 @@
-package com.codegym.extendsoop.compare;
+package com.codegym.extendsoop.compare.nghiacomparable;
 
-public class Circle extends Geometric implements Comparable<Circle> {
+public class Circle extends Geometric {
     private double radius;
 
     public  Circle() {
@@ -12,10 +12,8 @@ public class Circle extends Geometric implements Comparable<Circle> {
         this.radius = radius;
     }
 
-    public Circle(double radius, String color, String filled) {
+    public Circle(double radius, String color, boolean filled) {
         this.radius = radius;
-        setColor(color);
-        setFilled(filled);
     }
 
     public double getRadius() {
@@ -44,17 +42,8 @@ public class Circle extends Geometric implements Comparable<Circle> {
 
     @Override
     public String toString() {
-        return "Area: " + getRadius() ;
+        return "Area: " + getRadius() + super.toString();
     }
 
-    @Override
-    public int compareTo(Circle o) {
-        if (this.getRadius() >= o.getRadius()) {
-            return 1;
-        }
-        else
-        {
-            return -1;
-        }
-    }
+
 }
