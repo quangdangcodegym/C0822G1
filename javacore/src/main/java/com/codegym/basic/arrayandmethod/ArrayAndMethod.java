@@ -1,4 +1,4 @@
-package com.codegym.arrayandmethod;
+package com.codegym.basic.arrayandmethod;
 
 import java.util.Arrays;
 import java.util.Scanner;

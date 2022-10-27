@@ -1,4 +1,4 @@
-package com.codegym.array2hoang;
+package com.codegym.basic.array2hoang;
 
 import java.util.Scanner;
 

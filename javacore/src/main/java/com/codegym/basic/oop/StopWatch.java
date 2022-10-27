@@ -1,6 +1,6 @@
-package com.codegym.oop;
+package com.codegym.basic.oop;
 
-import com.codegym.arrayandmethod.ArrayAndMethod;
+import com.codegym.basic.arrayandmethod.ArrayAndMethod;
 
 public class StopWatch {
     private long startTime;

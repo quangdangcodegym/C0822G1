@@ -1,4 +1,4 @@
-package com.codegym.array2;
+package com.codegym.basic.array2;
 
 import java.util.Scanner;
 

@@ -1,6 +1,4 @@
-package com.codegym.oop;
-
-import com.codegym.arrayandmethod.ArrayAndMethod;
+package com.codegym.basic.oop;
 
 public class MainOOP {
     public static void main(String[] args) {

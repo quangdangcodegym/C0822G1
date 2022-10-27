@@ -1,6 +1,6 @@
-package com.codegym.accessmodifier;
+package com.codegym.basic.accessmodifier;
 
-import com.codegym.utils.Helper;
+import com.codegym.basic.utils.Helper;
 
 class Student {
     int rollno = 0;

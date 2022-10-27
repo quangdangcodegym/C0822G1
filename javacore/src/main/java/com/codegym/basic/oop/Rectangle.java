@@ -1,4 +1,4 @@
-package com.codegym.oop;
+package com.codegym.basic.oop;
 
 public class Rectangle {
 
