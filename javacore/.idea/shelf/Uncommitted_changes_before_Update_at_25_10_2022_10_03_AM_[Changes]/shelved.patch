@@ -1,0 +1,146 @@
+Index: src/main/java/com/codegym/extendsoop/Abstract/Circle.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/codegym/extendsoop/Abstract/Circle.java b/src/main/java/com/codegym/extendsoop/Abstract/Circle.java
+--- a/src/main/java/com/codegym/extendsoop/Abstract/Circle.java	
++++ b/src/main/java/com/codegym/extendsoop/Abstract/Circle.java	
+@@ -17,7 +17,13 @@
+     }
+ 
+     @Override
+-    public double tinhDienTich() {
++    public double Area() {
+         return Math.PI*this.r*this.r;
+     }
++
++    /**
++     Lop con ghi de phuong thuc truu tuong cua lop cha
++
++     */
++
+ }
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -5,13 +5,25 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="e056535d-82d7-4316-8c10-214b094b0158" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/Abstract/Circle.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/Abstract/CreateDegrees.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/Abstract/Geometry.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/Abstract/Point.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/Abstract/Rectangle.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/Abstract/Test.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/compare/MyArrays.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/compare/MyCompareble.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/myinterface/Main.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/Abstract/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/Abstract/Circle.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/Abstract/Geometry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/Abstract/Geometry.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/Abstract/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/Abstract/Point.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/Abstract/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/compare/Rectangle.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/Abstract/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/Abstract/Test.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/compare/Circle.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/Geometric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/compare/Geometric.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/Abstract/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/Abstract/Circle.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/Abstract/CreateDegrees.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/Abstract/CreateDegrees.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/Abstract/Geometry.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/Abstract/Geometry.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/Abstract/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/Abstract/Rectangle.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/Abstract/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/Abstract/Test.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/Circle.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/Geometric.class" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -67,13 +79,13 @@
+       <recent name="com.codegym.extendsoop" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Application.Test">
+-    <configuration name="ArrayAndMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="com.codegym.arrayandmethod.ArrayAndMethod" />
++  <component name="RunManager" selected="Application.MyArrays">
++    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.codegym.extendsoop.myinterface.Main" />
+       <module name="javacore" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="com.codegym.arrayandmethod.*" />
++          <option name="PATTERN" value="com.codegym.extendsoop.myinterface.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -81,12 +93,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="MainOOP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="com.codegym.oop.MainOOP" />
++    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.codegym.extendsoop.myinterface.Main" />
+       <module name="javacore" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="com.codegym.oop.*" />
++          <option name="PATTERN" value="com.codegym.extendsoop.myinterface.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -94,12 +106,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="com.codegym.accessmodifier.Student" />
++    <configuration name="MyArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.codegym.extendsoop.compare.MyArrays" />
+       <module name="javacore" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="com.codegym.accessmodifier.*" />
++          <option name="PATTERN" value="com.codegym.extendsoop.compare.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -112,7 +124,7 @@
+       <module name="javacore" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="com.codegym.extendsoop.Abstract.*" />
++          <option name="PATTERN" value="com.codegym.extendsoop.compare.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -125,7 +137,7 @@
+       <module name="javacore" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="com.codegym.extendsoop.*" />
++          <option name="PATTERN" value="com.codegym.extendsoop.compare.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -135,11 +147,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Application.MyArrays" />
++        <item itemvalue="Application.Main (1)" />
+         <item itemvalue="Application.Test" />
++        <item itemvalue="Application.Main" />
+         <item itemvalue="Application.TestCircleRectangle" />
+-        <item itemvalue="Application.Student" />
+-        <item itemvalue="Application.MainOOP" />
+-        <item itemvalue="Application.ArrayAndMethod" />
+       </list>
+     </recent_temporary>
+   </component>

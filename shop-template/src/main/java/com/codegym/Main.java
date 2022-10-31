@@ -4,10 +4,6 @@ import com.codegym.views.ViewTemplate;
 import com.codegym.views.product.AddProductView;
 import com.codegym.views.product.ProductsView;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Enumeration;
 import java.util.Scanner;
 
 public class Main {
@@ -35,7 +31,6 @@ public class Main {
             viewPage.showPage();
             //
         }while (flagMenu);
-
 
     }
 }
