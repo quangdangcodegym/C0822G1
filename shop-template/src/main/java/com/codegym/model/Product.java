@@ -1,5 +1,7 @@
 package com.codegym.model;
 
+import com.codegym.utils.DateUtils;
+
 import java.text.SimpleDateFormat;
 import java.time.Instant;
 import java.util.Date;
@@ -86,11 +88,8 @@ public class Product {
 
     @Override
     public String toString() {
-        // 31-10-2022 08:49
-        String pattern = "MM-dd-yyyy HH:mm:ss";
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
-        String dateCreateAt = simpleDateFormat.format(this.createAt);
-        String dateUpdateAt = simpleDateFormat.format(Date.from(this.updateAt));
+        String dateCreateAt = DateUtils.formatDateToString(this.createAt);
+        String dateUpdateAt = DateUtils.formatInstanstToString(this.updateAt);
 
         return String.format("%5s, %15s, %5s, %5s, %5s, %5s, %5s", this.id, this.name, this.price,
                 this.quantity, this.manufacturer, dateCreateAt, dateUpdateAt);
