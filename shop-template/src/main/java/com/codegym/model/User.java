@@ -87,6 +87,6 @@ public class User {
     public String toString() {
         String dateCreateAt = DateUtils.formatDateToString(this.createAt);
         return String.format("%10s, %15s, %10s, %10s, %10s, %10s, %5s", this.id, this.name, this.email,
-                this.address, this.phone, this.createAt, this.idRole);
+                this.address, this.phone, dateCreateAt, this.idRole);
     }
 }
