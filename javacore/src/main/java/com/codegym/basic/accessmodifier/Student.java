@@ -2,12 +2,20 @@ package com.codegym.basic.accessmodifier;
 
 import com.codegym.basic.utils.Helper;
 
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.LinkedList;
+
 class Student {
     int rollno = 0;
     String name;
     static String college = "Codeygym";
 
     public Student(int rollno, String name) {
+        ArrayList<String> a;
+//        a.iterator();
+        LinkedList<String> a1;
+        Iterator<String> l;
         this.rollno = rollno;
         this.name = name;
     }

@@ -49,4 +49,12 @@ public class Circle {
 //    public int hashCode() {
 //        return Objects.hash(radius);
 //    }
+
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        Circle cCopy = new Circle();
+        cCopy.setRadius(this.getRadius());
+        return cCopy;
+    }
 }
