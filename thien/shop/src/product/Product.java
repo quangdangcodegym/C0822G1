@@ -1,4 +1,5 @@
 package product;
+import java.text.SimpleDateFormat;
 import java.time.Instant;
 import java.util.Date;
 
@@ -10,10 +11,12 @@ public class Product {
     private String manufacturer;
     private Date createAt;
     private Instant updateAt;
+    public static int count = 0;
 
     public Product(){}
-    public Product(long id, String name, float price, int quantity, String manufacturer, Date createAt, Instant updateAt){
-        this.id = id;
+    public Product(String name, float price, int quantity, String manufacturer, Date createAt, Instant updateAt){
+        count++;
+        this.id = count;
         this.name = name;
         this.price = price;
         this.quantity = quantity;
@@ -24,10 +27,6 @@ public class Product {
 
     public long getId() {
         return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
     }
 
     public String getName() {
@@ -80,5 +79,11 @@ public class Product {
 
     @Override
     public String toString() {
+        String pattern = "dd-MM-yyy HH:mm:ss";
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
+        String dateCreateAt = simpleDateFormat.format(this.createAt);
+        String dateUpdateAt = simpleDateFormat.format(Date.from(this.updateAt));
+        return String.format("%5s, %15s, %5s, %5s,  %5s, %5s, %5s", this.id, this.name, this.price, this.quantity,
+                this.manufacturer, dateCreateAt, dateUpdateAt);
     }
 }
