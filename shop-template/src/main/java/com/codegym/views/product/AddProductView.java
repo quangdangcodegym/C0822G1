@@ -7,11 +7,11 @@ import com.codegym.views.ViewTemplate;
 import java.time.Instant;
 import java.util.Date;
 
-public class AddProductView extends ViewTemplate {
-    private ProductService productService;
+public class AddProductView extends ProductTemplate {
+
 
     public AddProductView(){
-        productService = new ProductService();
+        super();
     }
     @Override
     public void showBody() {
@@ -33,6 +33,6 @@ public class AddProductView extends ViewTemplate {
         Product product = new Product(idProduct, nameProduct, priceProduct,
                 quantityProduct,manufacturerProduct,  creatAtProduct, updateAtProduct);
 
-        productService.getProducts().add(product);
+        productService.addProduct(product);
     }
 }
