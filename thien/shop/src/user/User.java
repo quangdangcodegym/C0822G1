@@ -1,5 +1,7 @@
 package user;
 
+import utils.DateUtils;
+
 import java.time.Instant;
 import java.util.Date;
 
@@ -84,6 +86,8 @@ public class User {
 
     @Override
     public String toString() {
+        String dateCreateAt = DateUtils.formatDateToString(this.createAt);
+        String dateUpdateAt = DateUtils.formatInstantToString(this.updateAt);
         return "id: " + getId() + ", name: " + getName() + ", email: " + getEmail() + ", address: " +getEmail()
                 + ", phone: " + getPhone() + ", create at: " + getCreateAt() + ", update at: " + updateAt + "\n";
     }

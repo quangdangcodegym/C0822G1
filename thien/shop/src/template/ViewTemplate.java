@@ -1,4 +1,4 @@
-package view;
+package template;
 
 public abstract class ViewTemplate {
     public void showHeader(){

@@ -8,7 +8,7 @@ import java.util.Date;
 import java.util.Scanner;
 
 public class UsersList {
-public Scanner scanner = new Scanner(System.in);
+private static Scanner scanner = new Scanner(System.in);
     public UsersList(){init();}
     private static ArrayList<User> usersList;
 
@@ -27,13 +27,16 @@ public Scanner scanner = new Scanner(System.in);
         usersList.add(new User("Ronaldo", "ronaldo@gmail.com", "Portugal", 987654321, createAt,updateAt));
         usersList.add(new User("Messi", "messi@gmail.com", "Argentina", 987651234, createAt, updateAt));
         usersList.add(new User("Neymar", "neymar@gmail.com", "Brasil", 987612345, createAt, updateAt));
+        usersList.add(new User("Ronaldo", "huda@gmail.com", "Hue", 252275, createAt, updateAt));
+        usersList.add(new User("Heineken", "neymar@gmail.com", "SG", 275568, createAt, updateAt));
     }
 //    static {
 //        Date createAt = new Date();
+//        Instant updateAt = Instant.now();
 //        usersList = new ArrayList<>();
-//        usersList.add(new User("Ronaldo", "ronaldo@gmail.com", "Portugal", 987654321, createAt));
-//        usersList.add(new User("Messi", "messi@gmail.com", "Argentina", 987651234, createAt));
-//        usersList.add(new User("Neyma", "neyma@gmail.com", "Brasil", 987612345, createAt));
+//        usersList.add(new User("Ronaldo", "ronaldo@gmail.com", "Portugal", 987654321, createAt, updateAt));
+//        usersList.add(new User("Messi", "messi@gmail.com", "Argentina", 987651234, createAt, updateAt));
+//        usersList.add(new User("Neyma", "neyma@gmail.com", "Brasil", 987612345, createAt, updateAt));
 //    }
     public void addUser(User user){
         usersList.add(user);
@@ -60,9 +63,9 @@ public Scanner scanner = new Scanner(System.in);
         }
     }
     public void removeUser(String name){
-        for (User user : usersList) {
-            if (user.getName() == name){
-                usersList.remove(user);
+        for (int i = 0; i < usersList.size(); i++) {
+            if (usersList.get(i).getName() == name){
+                usersList.remove(i);
             }
         }
     }
@@ -76,14 +79,60 @@ public Scanner scanner = new Scanner(System.in);
                 user.setEmail(scanner.nextLine());
                 System.out.println("Enter new address:");
                 user.setAddress(scanner.nextLine());
-//                String newAddress = ;
                 System.out.println("Enter new phone number:");
                 user.setPhone(Long.parseLong(scanner.nextLine()));
-//                Long newPhone = ;
-//                Instant updateAt = ;
                 user.setUpdateAt(Instant.now());
             }
         }
+    }
+    public User findById(int id){
+        User userId = new User();
+        int count = 0;
+        for (int i = 0; i < usersList.size(); i++) {
+            if (usersList.get(i).getId() == id){
+                userId = usersList.get(i);
+                count++;
+            } else if (i == usersList.size() - 1 && count ==0){
+                userId = null;
+            }
+        }
+        return userId;
+    }
+    public ArrayList findByName(String name){
+        ArrayList<User> sameNameList = new ArrayList<>();
+        for (User user : usersList) {
+            if (user.getName() == name){
+                sameNameList.add(user);
+            }
+        }
+        return sameNameList;
+    }
+    public ArrayList findByEmail(String email){
+        ArrayList<User> sameEmailList = new ArrayList<>();
+        for (User user : usersList) {
+            if (user.getEmail() == email){
+                sameEmailList.add(user);
+            }
+        }
+        return sameEmailList;
+    }
+    public ArrayList findByAddress(String address){
+        ArrayList<User> sameAddressList = new ArrayList<>();
+        for (User user : usersList) {
+            if (user.getAddress() == address){
+                sameAddressList.add(user);
+            }
+        }
+        return sameAddressList;
+    }
+    public ArrayList findByPhone(long phone){
+        ArrayList<User> samePhoneList = new ArrayList<>();
+        for (User user : usersList) {
+            if (user.getPhone() == phone){
+                samePhoneList.add(user);
+            }
+        }
+        return samePhoneList;
     }
 
     @Override

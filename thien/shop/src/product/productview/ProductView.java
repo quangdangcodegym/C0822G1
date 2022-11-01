@@ -1,8 +1,8 @@
-package view.product;
+package product.productview;
 
 import product.Product;
-import product.ProductService;
-import view.ViewTemplate;
+import product.allproducts.ProductService;
+import template.ViewTemplate;
 
 public class ProductView extends ViewTemplate {
     private ProductService productService;

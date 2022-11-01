@@ -1,4 +1,6 @@
-package product;
+package product.allproducts;
+
+import product.Product;
 
 import java.time.Instant;
 import java.util.ArrayList;
