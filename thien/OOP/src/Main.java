@@ -1,7 +1,4 @@
-import OOP.Circle;
-import OOP.Point2d;
-import OOP.Point3d;
-import OOP.Rectangle;
+import OOP.*;
 import OOP.interfaces.Comparable;
 
 import java.lang.reflect.Array;
@@ -11,6 +8,15 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
+
+        MyLinkedListQueue queue = new MyLinkedListQueue();
+        queue.enqueue(442);
+        queue.enqueue(1);
+        queue.enqueue(42);
+        queue.enqueue(22);
+        queue.enqueue(74);
+        queue.enqueue(4);
+        System.out.println("Dequeue item is: " + queue.dequere().key);
 
 //        Circle circle1 = new Circle(4, "blue", "red");
 //        circle1.setColor("grey");
@@ -29,14 +35,14 @@ public class Main {
 //
 //        Point3d point3d = new Point3d(9, 5, 11);
 //        System.out.println(point3d.toString());
-        Circle[] circles = new Circle[5];
-        circles[0] = new Circle(2);
-        circles[1] = new Circle(12);
-        circles[2] = new Circle(4);
-        circles[3] = new Circle(37);
-        circles[4] = new Circle(23);
-        sort(circles);
-        System.out.println(Arrays.toString(circles));
+//        Circle[] circles = new Circle[5];
+//        circles[0] = new Circle(2);
+//        circles[1] = new Circle(12);
+//        circles[2] = new Circle(4);
+//        circles[3] = new Circle(37);
+//        circles[4] = new Circle(23);
+//        sort(circles);
+//        System.out.println(Arrays.toString(circles));
 
     }
 
