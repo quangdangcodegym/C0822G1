@@ -1,0 +1,217 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -5,13 +5,13 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="e056535d-82d7-4316-8c10-214b094b0158" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/myarraylist/Circle.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/myarraylist/MyList.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/myarraylist/TestMyList.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_10_2022_10_03_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_10_2022_10_03_AM__Changes_.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_10_2022_10_03_AM__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_10_2022_10_03_AM__Changes_1.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_10_2022_8_17_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_10_2022_8_17_AM__Changes_.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/compare/designpattern/builder/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/extendsoop/compare/designpattern/builder/Main.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/compare/designpattern/builder/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/compare/designpattern/builder/Main.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/compare/nghiacomparable/ComparableCircleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/compare/nghiacomparable/ComparableCircleTest.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/compare/nghiacomparable/MyArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/extendsoop/compare/nghiacomparable/MyArrays.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/myarraylist/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/myarraylist/MyList.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/myarraylist/MyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codegym/myarraylist/MyList.class" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -32,6 +32,9 @@
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
++  </component>
++  <component name="HighlightingSettingsPerFile">
++    <setting file="file://$PROJECT_DIR$/src/main/java/com/codegym/array2hoang/VongLap2Chieu.java" root0="FORCE_HIGHLIGHTING" />
+   </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+@@ -44,16 +47,20 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;D:/CODEGYM/CODEGYM/C0822G1/javacore&quot;,
+-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
++    "WebServerToolWindowFactoryState": "false",
++    "last_opened_file_path": "D:/CODEGYM/CODEGYM/C0822G1/javacore",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm"
+   }
+-}</component>
++}]]></component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="D:\CODEGYM\CODEGYM\C0822G1\javacore\src\main\java\com\codegym\extendsoop\nghiacomparable" />
+@@ -65,7 +72,7 @@
+       <recent name="com.codegym.extendsoop" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Application.MyList">
++  <component name="RunManager" selected="Application.TestMyList">
+     <configuration name="ComparableCircleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="com.codegym.extendsoop.nghiacomparable.ComparableCircleTest" />
+       <module name="javacore" />
+@@ -92,12 +99,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="com.codegym.extendsoop.Abstract.Test" />
++    <configuration name="TestCircleRectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.codegym.extendsoop.TestCircleRectangle" />
+       <module name="javacore" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="com.codegym.extendsoop.Abstract.*" />
++          <option name="PATTERN" value="com.codegym.extendsoop.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -105,12 +112,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="TestCircleRectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="com.codegym.extendsoop.TestCircleRectangle" />
++    <configuration name="TestMyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.codegym.myarraylist.TestMyList" />
+       <module name="javacore" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="com.codegym.extendsoop.*" />
++          <option name="PATTERN" value="com.codegym.myarraylist.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -133,11 +140,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Application.TestMyList" />
+         <item itemvalue="Application.MyList" />
+         <item itemvalue="Application.com.codegym.extendsoop.compare.nghiacomparable.ComparableCircleTest" />
+         <item itemvalue="Application.ComparableCircleTest" />
+         <item itemvalue="Application.TestCircleRectangle" />
+-        <item itemvalue="Application.Test" />
+       </list>
+     </recent_temporary>
+   </component>
+Index: src/main/java/com/codegym/myarraylist/TestMyList.java
+===================================================================
+diff --git a/src/main/java/com/codegym/myarraylist/TestMyList.java b/src/main/java/com/codegym/myarraylist/TestMyList.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/com/codegym/myarraylist/TestMyList.java	
+@@ -0,0 +1,24 @@
++package com.codegym.myarraylist;
++
++import java.util.ArrayList;
++
++public class TestMyList {
++    public static void main(String[] args) {
++
++//    MyList<Integer> myList = new MyList<Integer>();
++//    ArrayList<Integer> name = new ArrayList<Integer>(5);
++//        name.add(1);
++//        name.add(2);
++//        name.add(3);
++//        System.out.println(name.toString());
++//        System.out.println(name.isEmpty());
++        MyList<Integer> myList = new MyList<Integer>(2);
++        myList.add(1);
++        myList.add(2);
++        System.out.println(myList.toString());
++
++
++
++
++    }
++}
+Index: src/main/java/com/codegym/myarraylist/MyList.java
+===================================================================
+diff --git a/src/main/java/com/codegym/myarraylist/MyList.java b/src/main/java/com/codegym/myarraylist/MyList.java
+--- a/src/main/java/com/codegym/myarraylist/MyList.java	
++++ b/src/main/java/com/codegym/myarraylist/MyList.java	
+@@ -4,16 +4,23 @@
+ 
+ public class MyList<E> {
+     private int size = 0;
+-    private static final int DEFAULT_CAPACITY = 5;
++    private int DEFAULT_CAPACITY = 3;
+     private Object elements[];
+ 
+     public MyList() {
+         elements = new Object[DEFAULT_CAPACITY];
+     }
++
++    public MyList(int DEFAULT_CAPACITY){
++        this.DEFAULT_CAPACITY = DEFAULT_CAPACITY;
++        elements = new Object[DEFAULT_CAPACITY];
++    }
++
+     private void ensureCapa() {
+         int newSize = elements.length * 2;
+         elements = Arrays.copyOf(elements, newSize);
+     }
++
+     public void add(E e) {
+         if (size == elements.length) {
+             ensureCapa();
+@@ -23,26 +30,28 @@
+     }
+ 
+     public void remove(int index) {
+-        for (int i = index; i < size -1; i++) {
++        for (int i = index; i < size - 1; i++) {
+             elements[i] = elements[i + 1];
+         }
+         size--;
+     }
+-    public void remove(E obj){
++
++    public void remove(E obj) {
+ 
+     }
+ 
+     public int get(Object obj) {
+         for (int i = 0; i < size; i++) {
+-            if(elements[i].equals(obj)){
++            if (elements[i].equals(obj)) {
+                 return i;
+             }
+         }
+         return -1;
+     }
++
+     public E get(int i) {
+-        if (i>= size || i <0) {
+-            throw new IndexOutOfBoundsException("Index: " + i + ", Size " + i );
++        if (i >= size || i < 0) {
++            throw new IndexOutOfBoundsException("Index: " + i + ", Size " + i);
+         }
+         return (E) elements[i];
+     }

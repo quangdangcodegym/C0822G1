@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a0744edd-e7b6-4bec-9c47-ad218bf7d639" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AAAShop/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AAAShop/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AAAShop/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AAAShop/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AAAShop/services/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/utils/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AAAShop/utils/DateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/views/ViewTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AAAShop/views/ViewTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/views/product/AddProductView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AAAShop/views/product/AddProductView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/views/product/DeleteProductView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AAAShop/views/product/DeleteProductView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/views/product/ProductTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AAAShop/views/product/ProductTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/views/product/ProductsView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AAAShop/views/product/ProductsView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/model/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/services/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/views/ViewTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/views/product/AddProductView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codegym/views/product/ProductsView.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GspcnIrfLkhRmvwwTjBWA3cdCd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "G:/Module 2 - Class/C0822G1/Case-Study-Module2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.AAAShop.Main">
+    <configuration name="AAAShop.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AAAShop.Main" />
+      <module name="shop-template" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AAAShop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.Main" />
+      <module name="shop-template" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codegym.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AAAShop.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0744edd-e7b6-4bec-9c47-ad218bf7d639" name="Changes" comment="" />
+      <created>1667187227707</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667187227707</updated>
+      <workItem from="1667187229133" duration="451000" />
+      <workItem from="1667188028257" duration="28000" />
+      <workItem from="1667188069797" duration="7415000" />
+      <workItem from="1667208929298" duration="2715000" />
+      <workItem from="1667225240652" duration="436000" />
+      <workItem from="1667271968712" duration="4000" />
+      <workItem from="1667272614830" duration="1168000" />
+      <workItem from="1667274057125" duration="4472000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
