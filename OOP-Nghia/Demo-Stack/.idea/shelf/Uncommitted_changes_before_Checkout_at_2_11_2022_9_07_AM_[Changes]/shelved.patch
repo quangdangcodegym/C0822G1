@@ -1,0 +1,36 @@
+Index: ../../javacore/.idea/workspace.xml
+===================================================================
+diff --git a/../../javacore/.idea/workspace.xml b/../../javacore/.idea/workspace.xml
+--- a/../../javacore/.idea/workspace.xml	
++++ b/../../javacore/.idea/workspace.xml	
+@@ -4,7 +4,12 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="e056535d-82d7-4316-8c10-214b094b0158" name="Changes" comment="" />
++    <list default="true" id="e056535d-82d7-4316-8c10-214b094b0158" name="Changes" comment="">
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_19_2022_7_47_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_19_2022_7_47_PM__Changes_.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_2_29_PM_[Changes]/ArrayAdvanced.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_2_29_PM_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_2_29_PM__Changes_.xml" beforeDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -42,7 +47,7 @@
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+     "WebServerToolWindowFactoryState": "false",
+-    "last_opened_file_path": "C:/Users/Gin/Desktop/TestGit/C0822G1",
++    "last_opened_file_path": "D:/CODEGYM/CODEGYM/Module2/C0822G1/OOP-Nghia/Demo-Stack",
+     "nodejs_package_manager_path": "npm"
+   }
+ }]]></component>
+@@ -143,6 +148,7 @@
+       <workItem from="1666054982493" duration="8010000" />
+       <workItem from="1666141995528" duration="7047000" />
+       <workItem from="1666228060853" duration="4166000" />
++      <workItem from="1667352103271" duration="82000" />
+     </task>
+     <servers />
+   </component>

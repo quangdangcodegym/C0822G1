@@ -1,0 +1,80 @@
+Index: ../../javacore/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_2_29_PM__Changes_.xml
+===================================================================
+diff --git a/../../javacore/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_2_29_PM__Changes_.xml b/../../javacore/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_2_29_PM__Changes_.xml
+deleted file mode 100644
+--- a/../../javacore/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_2_29_PM__Changes_.xml	
++++ /dev/null	
+@@ -1,9 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Checkout_at_14_10_2022_2_29_PM_[Changes]" date="1665732569527" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_2_29_PM_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 14/10/2022 2:29 PM [Changes]" />
+-  <binary>
+-    <option name="BEFORE_PATH" />
+-    <option name="AFTER_PATH" value="target/classes/com/codegym/arrayadvanced/ArrayAdvanced.class" />
+-    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_2_29_PM_[Changes]/ArrayAdvanced.class" />
+-  </binary>
+-</changelist>
+\ No newline at end of file
+Index: ../../javacore/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_2_29_PM_[Changes]/shelved.patch
+===================================================================
+diff --git a/../../javacore/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_2_29_PM_[Changes]/shelved.patch b/../../javacore/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_2_29_PM_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/../../javacore/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_2_29_PM_[Changes]/shelved.patch	
++++ /dev/null	
+@@ -1,56 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"e056535d-82d7-4316-8c10-214b094b0158\" name=\"Changes\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2G0tBXLC59NGFGR3ynilVdCzprE\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"last_opened_file_path\": \"D:/CODEGYM/CODEGYM/C0822G1/javacore\",\r\n    \"nodejs_package_manager_path\": \"npm\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\CODEGYM\\CODEGYM\\C0822G1\\javacore\\src\\main\\java\\com\\codegym\\hellojava\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.ArrayAndMethod\">\r\n    <configuration name=\"ArrayAndMethod\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.codegym.arrayandmethod.ArrayAndMethod\" />\r\n      <module name=\"javacore\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.codegym.arrayandmethod.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"IntroduceJava\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.codegym.introducejava.IntroduceJava\" />\r\n      <module name=\"javacore\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.codegym.introducejava.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.codegym.hellojava.Main\" />\r\n      <module name=\"javacore\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.codegym.hellojava.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.ArrayAndMethod\" />\r\n        <item itemvalue=\"Application.Main\" />\r\n        <item itemvalue=\"Application.IntroduceJava\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"e056535d-82d7-4316-8c10-214b094b0158\" name=\"Changes\" comment=\"\" />\r\n      <created>1665537195408</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1665537195408</updated>\r\n      <workItem from=\"1665537197524\" duration=\"5822000\" />\r\n      <workItem from=\"1665623498731\" duration=\"6359000\" />\r\n      <workItem from=\"1665709485435\" duration=\"340000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision 54c3cb5a03105b70d4d01897466ed6cc191fa2b0)
+-+++ b/.idea/workspace.xml	(date 1665717399017)
+-@@ -4,7 +4,10 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="e056535d-82d7-4316-8c10-214b094b0158" name="Changes" comment="" />
+-+    <list default="true" id="e056535d-82d7-4316-8c10-214b094b0158" name="Changes" comment="">
+-+      <change afterPath="$PROJECT_DIR$/target/classes/com/codegym/arrayadvanced/ArrayAdvanced.class" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-+    </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-@@ -18,6 +21,11 @@
+-     </option>
+-   </component>
+-   <component name="Git.Settings">
+-+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+-+      <map>
+-+        <entry key="$PROJECT_DIR$/.." value="main" />
+-+      </map>
+-+    </option>
+-     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+-   </component>
+-   <component name="MarkdownSettingsMigration">
+-@@ -35,7 +43,7 @@
+-     "RunOnceActivity.ShowReadmeOnStart": "true",
+-     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-     "WebServerToolWindowFactoryState": "false",
+--    "last_opened_file_path": "D:/CODEGYM/CODEGYM/C0822G1/javacore",
+-+    "last_opened_file_path": "D:/CODEGYM/CODEGYM/C0622K1/helloc6/helloc6",
+-     "nodejs_package_manager_path": "npm"
+-   }
+- }]]></component>
+-@@ -86,9 +94,11 @@
+-     </configuration>
+-     <recent_temporary>
+-       <list>
+--        <item itemvalue="Application.ArrayAndMethod" />
+-         <item itemvalue="Application.Main" />
+-         <item itemvalue="Application.IntroduceJava" />
+-+        <item itemvalue="Application.ArrayAndMethod" />
+-+        <item itemvalue="Application.ArrayAndMethod" />
+-+        <item itemvalue="Application.Main" />
+-       </list>
+-     </recent_temporary>
+-   </component>
