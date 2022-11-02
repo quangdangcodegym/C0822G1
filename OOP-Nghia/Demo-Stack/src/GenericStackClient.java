@@ -12,9 +12,11 @@ public class GenericStackClient {
             System.out.printf(" %s", stack.pop());
         }
         System.out.println("\n1.3. Size of stack after pop operations : " + stack.size());
+
     }
     private static void stackOfIntegers() {
         MyGenericStack<Integer> stack = new MyGenericStack();
+
         stack.push(5);
         stack.push(4);
         stack.push(3);
