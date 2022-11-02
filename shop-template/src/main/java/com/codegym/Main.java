@@ -1,9 +1,7 @@
 package com.codegym;
 
 import com.codegym.views.ViewTemplate;
-import com.codegym.views.product.AddProductView;
-import com.codegym.views.product.DeleteProductView;
-import com.codegym.views.product.ProductsView;
+import com.codegym.views.product.*;
 
 import java.util.Scanner;
 
@@ -19,8 +17,8 @@ public class Main {
             System.out.println("2: Show List Product");
             System.out.println("3: Delete Product");
 
-            System.out.println("4: Show List User");
-            System.out.println("5: Delete User");
+            System.out.println("4: Search Product");
+            System.out.println("5: Sort Product");
             System.out.println("0: Exit");
             int menu = Integer.parseInt(scanner.nextLine());
             switch (menu) {
@@ -32,6 +30,12 @@ public class Main {
                     break;
                 case 3:
                     viewPage = new DeleteProductView();
+                    break;
+                case 4:
+                    viewPage = new SearchProductView();
+                    break;
+                case 5:
+                    viewPage = new SortProductView();
                     break;
                 case 0:
                     flagMenu = false;
