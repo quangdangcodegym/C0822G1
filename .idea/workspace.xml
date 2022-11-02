@@ -5,76 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce6e1056-f983-4fd7-8876-4a1cd84f4f8c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/C0822G1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javacore/javacore.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javacore/src/main/java/com/codegym/basic/myarraylist/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javacore/src/main/java/com/codegym/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javacore/src/main/java/com/codegym/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javacore/src/main/java/com/codegym/services/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javacore/src/main/java/com/codegym/utils/MyArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javacore/src/main/java/com/codegym/utils/MyArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javacore/src/main/java/com/codegym/utils/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javacore/src/main/java/com/codegym/views/ViewTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javacore/src/main/java/com/codegym/views/product/AddProductView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javacore/src/main/java/com/codegym/views/product/ProductsView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javacore/src/main/java/com/codegym/views/user/UserView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-template/src/main/java/com/codegym/services/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/.idea/shelf/Uncommitted_changes_before_Update_at_25_10_2022_10_03_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/javacore/.idea/shelf/Uncommitted_changes_before_Update_at_25_10_2022_10_03_AM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/.idea/shelf/Uncommitted_changes_before_Update_at_25_10_2022_10_03_AM__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/javacore/.idea/shelf/Uncommitted_changes_before_Update_at_25_10_2022_10_03_AM__Changes_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/.idea/shelf/Uncommitted_changes_before_Update_at_25_10_2022_8_17_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/javacore/.idea/shelf/Uncommitted_changes_before_Update_at_25_10_2022_8_17_AM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/javacore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/src/main/java/com/codegym/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/javacore/src/main/java/com/codegym/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/src/main/java/com/codegym/basic/accessmodifier/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/javacore/src/main/java/com/codegym/basic/accessmodifier/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/src/main/java/com/codegym/basic/myarraylist/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/javacore/src/main/java/com/codegym/basic/myarraylist/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/javacore/target/classes/com/codegym/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/StaticProperty/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/StaticProperty/MainCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/accessmodifier/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/array2/Array2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/array2hoang/VongLap2Chieu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/arrayandmethod/ArrayAndMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/extendsoop/Abstract/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/extendsoop/Abstract/CreateDegrees.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/extendsoop/Abstract/Geometry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/extendsoop/Abstract/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/extendsoop/Cylinder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/extendsoop/EXCircle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/extendsoop/MainCylinder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/extendsoop/compare/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/extendsoop/compare/Geometric.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/extendsoop/compare/MyArrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/extendsoop/compare/MyCompareble.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/extendsoop/compare/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/extendsoop/compare/designpattern/builder/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/extendsoop/compare/designpattern/template/MyArrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/extendsoop/compare/nghiacomparable/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/extendsoop/compare/nghiacomparable/ComparableCircle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/extendsoop/compare/nghiacomparable/ComparableCircleTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/extendsoop/compare/nghiacomparable/Geometric.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/extendsoop/compare/nghiacomparable/MyArrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/extendsoop/compare/nghiacomparable/RadicASCComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/extendsoop/myinterface/Main$Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/extendsoop/myinterface/Main$Bird.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/extendsoop/myinterface/Main$Fly.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/extendsoop/myinterface/Main$Flyable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/extendsoop/myinterface/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/hellojava/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/introducejava/IntroduceJava.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/myarraylist/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/myarraylist/MyList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/oop/Geometric.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/oop/MainOOP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/oop/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/oop/StopWatch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/target/classes/com/codegym/utils/Helper.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +100,7 @@
       <updated>1666746695831</updated>
       <workItem from="1666746697470" duration="243000" />
       <workItem from="1667178158683" duration="377000" />
-      <workItem from="1667178559278" duration="7696000" />
+      <workItem from="1667178559278" duration="7973000" />
     </task>
     <servers />
   </component>
