@@ -1,7 +1,6 @@
 import OOP.*;
 import OOP.interfaces.Comparable;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 
@@ -9,14 +8,26 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
 
-        MyLinkedListQueue queue = new MyLinkedListQueue();
-        queue.enqueue(442);
-        queue.enqueue(1);
-        queue.enqueue(42);
-        queue.enqueue(22);
-        queue.enqueue(74);
-        queue.enqueue(4);
-        System.out.println("Dequeue item is: " + queue.dequere().key);
+        Array array = new Array();
+        System.out.println("Origin array: " + array.toString());
+
+        array.interchangeSort();
+        System.out.println("Interchange sort: " + array.toString());
+
+        array.bubbleSort();
+        System.out.println("Bubble sort: " + array.toString());
+
+        array.interchangeSort();
+        System.out.println("Selection sort: " + array.toString());
+
+//        MyLinkedListQueue queue = new MyLinkedListQueue();
+//        queue.enqueue(442);
+//        queue.enqueue(1);
+//        queue.enqueue(42);
+//        queue.enqueue(22);
+//        queue.enqueue(74);
+//        queue.enqueue(4);
+//        System.out.println("Dequeue item is: " + queue.dequere().key);
 
 //        Circle circle1 = new Circle(4, "blue", "red");
 //        circle1.setColor("grey");
