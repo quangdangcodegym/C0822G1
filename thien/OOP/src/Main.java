@@ -8,17 +8,29 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
 
-        Array array = new Array();
-        System.out.println("Origin array: " + array.toString());
+        ExceptionTest exceptionTest = new ExceptionTest();
+        exceptionTest.tryCatchTest();
+        try {
+            ExceptionTest obj = new ExceptionTest();
+            obj.test();
+        } catch (Exception e) {
+            System.out.println("Exception handled!");
+        } finally {
+            System.out.println("Hello world!!!!");
+        }
 
-        array.interchangeSort();
-        System.out.println("Interchange sort: " + array.toString());
 
-        array.bubbleSort();
-        System.out.println("Bubble sort: " + array.toString());
-
-        array.interchangeSort();
-        System.out.println("Selection sort: " + array.toString());
+//        Array array = new Array();
+//        System.out.println("Origin array: " + array.toString());
+//
+//        array.interchangeSort();
+//        System.out.println("Interchange sort: " + array.toString());
+//
+//        array.bubbleSort();
+//        System.out.println("Bubble sort: " + array.toString());
+//
+//        array.interchangeSort();
+//        System.out.println("Selection sort: " + array.toString());
 
 //        MyLinkedListQueue queue = new MyLinkedListQueue();
 //        queue.enqueue(442);
