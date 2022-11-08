@@ -5,24 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3563df64-27b6-4b46-9dd2-571f66b0ca5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/sort/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/sort/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/sort/BubleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/sort/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/sort/InterchangeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/sort/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/sort/comparator/ComparatorByWeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/sort/comparator/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shop-template/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/quocgia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/file/CVReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-template/data/products.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-template/src/main/java/com/codegym/io/readbinary/MainBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-template/src/main/java/com/codegym/io/readbinary/ReadFileBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-template/src/main/java/com/codegym/io/readcharacter/ReadFileCharacter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OOP-Nghia/Demo-Stack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP-Nghia/Demo-Stack/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OOP-Nghia/Demo-Stack/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP-Nghia/Demo-Stack/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_19_2022_7_47_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_19_2022_7_47_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_31_2022_10_48_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_31_2022_10_48_AM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_10_2022_10_03_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_10_2022_10_03_AM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/sort/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/sort/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-template/src/main/java/com/codegym/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-template/src/main/java/com/codegym/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../shop-template/src/main/java/com/codegym/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../shop-template/src/main/java/com/codegym/views/product/AddProductView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../shop-template/src/main/java/com/codegym/views/product/AddProductView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-template/target/classes/com/codegym/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shop-template/target/classes/com/codegym/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-template/target/classes/com/codegym/views/product/AddProductView.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shop-template/target/classes/com/codegym/views/product/AddProductView.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,15 +51,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/CODEGYM/CODEGYM/Module2/C0822G1/javacore"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CODEGYM/CODEGYM/Module2/C0822G1/javacore&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.CVReader">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codegym.sort.Application" />
       <module name="javacore" />
@@ -76,8 +74,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CVReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.file.CVReader" />
+      <module name="javacore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codegym.file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CVReader" />
         <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
@@ -91,7 +103,11 @@
       <option name="presentableId" value="Default" />
       <updated>1667438459944</updated>
       <workItem from="1667438461760" duration="732000" />
-      <workItem from="1667524381236" duration="5568000" />
+      <workItem from="1667524381236" duration="6287000" />
+      <workItem from="1667531500220" duration="1020000" />
+      <workItem from="1667545092426" duration="754000" />
+      <workItem from="1667782229807" duration="1228000" />
+      <workItem from="1667869627330" duration="5324000" />
     </task>
     <servers />
   </component>

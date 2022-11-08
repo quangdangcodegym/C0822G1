@@ -1,0 +1,9 @@
+NHÀN: 7.25
+HOÀNG: 6
+THIỆN 7
+TRUNG: 4.5
+DŨNG: 5
+YÊN: 4.75
+NGUYÊN: 5.75
+NGHĨA: 4.25
+

@@ -9,7 +9,6 @@ import java.util.Date;
 
 public class AddProductView extends ProductTemplate {
 
-
     public AddProductView(){
         super();
     }

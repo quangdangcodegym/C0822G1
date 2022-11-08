@@ -43,9 +43,7 @@ public class Application {
                     killEach(animals, number);
                 }
                 case 6:{
-
                 }
-
             }
             System.out.println(Arrays.toString(animals));
         }while (true);

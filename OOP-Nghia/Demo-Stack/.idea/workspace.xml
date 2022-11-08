@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fbc5698-c806-4957-99ff-4c78985f6cc6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="334f2f6d-10f0-4e12-bf02-1151cb9380d8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenericStackClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenericStackClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../javacore/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_19_2022_7_47_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../javacore/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_19_2022_7_47_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../javacore/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_2_29_PM_[Changes]/ArrayAdvanced.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../javacore/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_2_29_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../javacore/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_2_29_PM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../javacore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../javacore/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,33 +37,19 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/CODEGYM/CODEGYM/Module2/C0822G1/OOP-Nghia/Demo-Stack"
+    "last_opened_file_path": "D:/CODEGYM/CODEGYM/Module2/C0822G1/shop-template"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Demo-Stack" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4fbc5698-c806-4957-99ff-4c78985f6cc6" name="Changes" comment="" />
+      <changelist id="334f2f6d-10f0-4e12-bf02-1151cb9380d8" name="Changes" comment="" />
       <created>1667318919955</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667318919955</updated>
       <workItem from="1667318921398" duration="804000" />
-      <workItem from="1667352188487" duration="2210000" />
+      <workItem from="1667356505417" duration="31000" />
     </task>
     <servers />
   </component>
