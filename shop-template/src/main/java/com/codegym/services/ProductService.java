@@ -110,13 +110,11 @@ public class ProductService {
         FileUtils.writeFile(convertProductsToListString(products), PRODUCT_FILE);
     }
 
-    public void setProducts(ArrayList<Product> products) {
-        this.products = products;
-    }
+
 
     public List<Product> searchByName(String name) {
         ArrayList<Product> results = new ArrayList<>();
-        for (Product p : products) {
+        for (Product p : getProducts()) {
             if (p.getName().toUpperCase().contains(name.toUpperCase())) {
                 results.add(p);
             }
@@ -125,13 +123,13 @@ public class ProductService {
     }
 
     public void sortByName(Comparator<Product> comparatorName) {
-        products.sort(comparatorName);
+        getProducts().sort(comparatorName);
     }
     public void sortByPrice(Comparator<Product> comparatorPrice) {
-        products.sort(comparatorPrice);
+        getProducts().sort(comparatorPrice);
     }
     public void sortProduct(Comparator<Product> comparator) {
-        products.sort(comparator);
+        getProducts().sort(comparator);
     }
 
 }

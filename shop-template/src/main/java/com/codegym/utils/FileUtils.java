@@ -28,7 +28,7 @@ public class FileUtils {
         try {
             FileWriter fileWriter = new FileWriter(fileName);
             for (String item : listLines) {
-                fileWriter.write(item);
+                fileWriter.write(item +"\n");
             }
             fileWriter.close();
         } catch (IOException ioException) {

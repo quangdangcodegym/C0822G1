@@ -29,6 +29,7 @@ public class AddProductView extends ProductTemplate {
 
         Date creatAtProduct = new Date();
         Instant updateAtProduct = Instant.now();
+
         Product product = new Product(idProduct, nameProduct, priceProduct,
                 quantityProduct,manufacturerProduct,  creatAtProduct, updateAtProduct);
 

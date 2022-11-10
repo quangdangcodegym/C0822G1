@@ -8,18 +8,19 @@ import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
 public class DateUtils {
-    private static String pattern = "MM-dd-yyyy HH:mm:ss";
+    private static String PATTERN_FORMAT_DATE = "MM-dd-yyyy HH:mm:ss";
 
     private static final String PATTERN_FORMAT_INSTANT = "MM-dd-yyyy HH:mm:ss";
-    private static SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
-
+    private static SimpleDateFormat simpleDateFormat = new SimpleDateFormat(PATTERN_FORMAT_DATE);
+    private static DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern(PATTERN_FORMAT_INSTANT)
+            .withZone(ZoneId.systemDefault());
 
 
     public static String formatDateToString(Date dateUtils) {
         return simpleDateFormat.format(dateUtils);
     }
     public static String formatInstanstToString(Instant dateInstants){
-        return simpleDateFormat.format(Date.from(dateInstants));
+        return dateTimeFormatter.format(dateInstants);
     }
 
     public static Date parseStringToDate(String date) {
@@ -31,11 +32,7 @@ public class DateUtils {
     }
 
     public static Instant parseStringToInstant(String date) {
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern(PATTERN_FORMAT_INSTANT)
-                .withZone(ZoneId.systemDefault());
-
-        Instant instant = Instant.parse(date);
-        return instant;
+        return Instant.from(dateTimeFormatter.parse(date));
     }
 
 
