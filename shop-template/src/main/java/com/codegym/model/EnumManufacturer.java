@@ -26,6 +26,7 @@ public enum EnumManufacturer {
         EnumManufacturer size = EnumManufacturer.APPLE;
         System.out.println(size.getId());
         System.out.println(size.getName());
+        System.out.println(size);
         for (EnumManufacturer e : EnumManufacturer.values()) {
             System.out.println(e.getId() + " : " + e.getName());
         }
