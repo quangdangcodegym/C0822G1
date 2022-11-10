@@ -1,0 +1,18 @@
+4 tính chất:
++ tính đóng gói:
+    Sử dụng access modifier, Getter/setter để kiểm soát quyền truy cập và chỉnh sua đối tương
+    Giúp che giấu dữ liệu của đối tượng (thuộc tính/phương thức)
+    Chỉ phơi bày những thông tin mà người lập trình mong muốn
++ Tính kế thừa:
+    Lớp con sẽ thừa hưởng những thuộc tính và phương thức của lớp cha
+    Dễ mở rông và tai su dung code
+    Su dung tu khoa extends
++ Tính đa hình:
+    1 đối tượng có thể thực hiện 1 tác vụ theo nhiều cách khác nhau
+    overload và override thể hiện rõ tính chất này
+    1 biến thuộc kiểu dữ liệu của lớp cha có thể tham chiếu tới 1 đối tượng của lớp con
++ Tính trừu tượng:
+    Che giấu/ ẩn đi phan cai dat chi tiết, chỉ hiển thị tính năng đến người dùng
+    thể hiện qua từ khóa abstract, lớp abstract, interface
+
+
