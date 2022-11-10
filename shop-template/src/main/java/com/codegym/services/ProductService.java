@@ -1,12 +1,19 @@
 package com.codegym.services;
 
 import com.codegym.model.Product;
+import com.codegym.utils.DateUtils;
+import com.codegym.utils.FileUtils;
 import com.sun.javafx.css.Combinator;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.time.Instant;
 import java.util.*;
 
 public class ProductService {
+    private static final String PRODUCT_FILE = "D:\\CODEGYM\\CODEGYM\\Module2\\C0822G1\\shop-template\\data\\product.txt";
     private static ArrayList<Product> products;
 
     public ProductService() {
@@ -36,16 +43,43 @@ public class ProductService {
 
     }
 
-    public ArrayList<Product> getProducts() {
-        return products;
+    public List<Product> getProducts() {
+        List<Product> listProduct = new ArrayList<>();
+        List<String> listProductLines = FileUtils.readFile(PRODUCT_FILE);
+        for (String item : listProductLines) {
+            // item: 1668046363,Iphone 13,12000.0,2,Apple,11-10-2022 09:12:52,11-10-2022 09:12:52
+            String[] items = item.split(",");
+            Long idProduct = Long.parseLong(items[0]);
+            String nameProduct = items[1];
+            float priceProduct = Float.parseFloat(items[2]);
+            int quantityProduct = Integer.parseInt(items[3]);
+            String manufacturorProduct = items[4];
+            Date createAtProduct = DateUtils.parseStringToDate(items[5]);
+            Instant updateAtProduct = DateUtils.parseStringToInstant(items[6]);
+
+            Product product = new Product(idProduct, nameProduct, priceProduct, quantityProduct, manufacturorProduct, createAtProduct, updateAtProduct);
+            listProduct.add(product);
+        }
+        return listProduct;
+    }
+    public List<String> convertProductsToListString(List<Product> products) {
+        List<String> listLineProducts = new ArrayList<>();
+        for (Product p : products) {
+            listLineProducts.add(p.toString());
+        }
+        return  listLineProducts;
     }
 
     public void addProduct(Product product) {
-        ProductService.products.add(product);
+///        ProductService.products.add(product);
+        List<String> listProductLines = FileUtils.readFile(PRODUCT_FILE);
+        listProductLines.add(product.toString());
+        FileUtils.writeFile(listProductLines, PRODUCT_FILE);
     }
 
     public Product getProductById(Long id) {
-        for (Product p : ProductService.products) {
+        List<Product> products = getProducts();
+        for (Product p : products) {
             if (p.getId().equals(id)) {
                 return p;
             }
@@ -54,17 +88,26 @@ public class ProductService {
     }
 
     public void removeProduct(Product product) {
-        ProductService.products.remove(product);
+        List<Product> products = getProducts();
+        for (Product p : products) {
+            if (p.getId().equals(product.getId())) {
+                products.remove(p);
+                break;
+            }
+        }
+        FileUtils.writeFile(convertProductsToListString(products), PRODUCT_FILE);
+
     }
 
     public void removeProductById(Long idProduct) {
-        for (int i = 0; i < ProductService.products.size(); i++) {
-            if (ProductService.products.get(i).getId().equals(idProduct)) {
-                ProductService.products.remove(i);
+        List<Product> products = getProducts();
+        for (Product p : products) {
+            if (p.getId().equals(idProduct)) {
+                products.remove(p);
                 break;
-
             }
         }
+        FileUtils.writeFile(convertProductsToListString(products), PRODUCT_FILE);
     }
 
     public void setProducts(ArrayList<Product> products) {

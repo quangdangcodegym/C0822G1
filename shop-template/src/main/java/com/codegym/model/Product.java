@@ -91,7 +91,10 @@ public class Product {
         String dateCreateAt = DateUtils.formatDateToString(this.createAt);
         String dateUpdateAt = DateUtils.formatInstanstToString(this.updateAt);
 
-        return String.format("%5s, %15s, %5s, %5s, %5s, %5s, %5s", this.id, this.name, this.price,
+//        return String.format("%5s, %15s, %5s, %5s, %5s, %5s, %5s", this.id, this.name, this.price,
+//                this.quantity, this.manufacturer, dateCreateAt, dateUpdateAt);
+
+        return String.format("%s,%s,%s,%s,%s,%s,%s", this.id, this.name, this.price,
                 this.quantity, this.manufacturer, dateCreateAt, dateUpdateAt);
     }
 }
