@@ -1,1 +1,5 @@
-Tan Dung dep
+ID,TEN SANPHAM,SOLUONG,GIA|NHA SX|DANH MUC
+1, Iphone X, 50, 10000, Apple, Điện thoại
+2, Iphone 11, 100, 10000, Apple, Điện thoại
+3, Iphone 12, 50, 10000, Apple, Điện thoại
+4, Iphone 13, 1, 15000, Apple, Điện thoại

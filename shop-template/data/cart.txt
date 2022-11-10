@@ -1,0 +1,2 @@
+ID CART, CreateAt, Total, ID Customer
+1, 9/11/2022, 100000, 1
