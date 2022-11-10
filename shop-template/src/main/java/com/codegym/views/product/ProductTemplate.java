@@ -13,7 +13,7 @@ public abstract class ProductTemplate extends ViewTemplate {
     }
     public void showProducts(List<Product> list) {
         for (Product product : list) {
-            System.out.println(product);
+            System.out.println(product.showInfo());
         }
     }
 }

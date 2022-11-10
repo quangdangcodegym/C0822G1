@@ -3,6 +3,7 @@ package com.codegym.services;
 import com.codegym.model.Product;
 import com.codegym.utils.DateUtils;
 import com.codegym.utils.FileUtils;
+import com.codegym.utils.Helper;
 import com.sun.javafx.css.Combinator;
 
 import java.io.BufferedReader;
@@ -14,34 +15,10 @@ import java.util.*;
 
 public class ProductService {
     private static final String PRODUCT_FILE = "D:\\CODEGYM\\CODEGYM\\Module2\\C0822G1\\shop-template\\data\\product.txt";
-    private static ArrayList<Product> products;
 
     public ProductService() {
     }
-    public static void init() {
-        products = new ArrayList<>();
-        Date createAt = new Date();
-        Instant updateAt = Instant.now();
 
-        products.add(new Product(1667182235L, "Zphone 11", 20000, 2, "Apple",createAt, updateAt ));
-        products.add(new Product(1667182236L, "Bphone 12", 20000, 2, "Apple",createAt, updateAt ));
-        products.add(new Product(1667182237L, "Aphone 13", 20000, 2, "Apple",createAt, updateAt ));
-        products.add(new Product(1667182238L, "Ephone 14", 20000, 2, "Apple",createAt, updateAt ));
-        products.add(new Product(1667182239L, "Lphone X", 20000, 2, "Apple",createAt, updateAt ));
-
-    }
-    static {
-        products = new ArrayList<>();
-        Date createAt = new Date();
-        Instant updateAt = Instant.now();
-
-        products.add(new Product(1667182235L, "Zphone 11", 20000, 2, "Apple",createAt, updateAt ));
-        products.add(new Product(1667182236L, "Bphone 12", 80000, 2, "Apple",createAt, updateAt ));
-        products.add(new Product(1667182237L, "Aphone 13", 40000, 2, "Apple",createAt, updateAt ));
-        products.add(new Product(1667182238L, "Ephone 14", 100000, 2, "Apple",createAt, updateAt ));
-        products.add(new Product(1667182239L, "Lphone X", 10000, 2, "Apple",createAt, updateAt ));
-
-    }
 
     public List<Product> getProducts() {
         List<Product> listProduct = new ArrayList<>();
@@ -53,11 +30,11 @@ public class ProductService {
             String nameProduct = items[1];
             float priceProduct = Float.parseFloat(items[2]);
             int quantityProduct = Integer.parseInt(items[3]);
-            String manufacturorProduct = items[4];
+            int idManufacturorProduct = Integer.parseInt(items[4]);
             Date createAtProduct = DateUtils.parseStringToDate(items[5]);
             Instant updateAtProduct = DateUtils.parseStringToInstant(items[6]);
 
-            Product product = new Product(idProduct, nameProduct, priceProduct, quantityProduct, manufacturorProduct, createAtProduct, updateAtProduct);
+            Product product = new Product(idProduct, nameProduct, priceProduct, quantityProduct, Helper.findById(idManufacturorProduct), createAtProduct, updateAtProduct);
             listProduct.add(product);
         }
         return listProduct;
@@ -71,7 +48,6 @@ public class ProductService {
     }
 
     public void addProduct(Product product) {
-///        ProductService.products.add(product);
         List<String> listProductLines = FileUtils.readFile(PRODUCT_FILE);
         listProductLines.add(product.toString());
         FileUtils.writeFile(listProductLines, PRODUCT_FILE);

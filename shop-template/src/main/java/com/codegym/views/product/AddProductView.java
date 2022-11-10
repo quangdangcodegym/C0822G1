@@ -1,7 +1,9 @@
 package com.codegym.views.product;
 
+import com.codegym.model.EnumManufacturer;
 import com.codegym.model.Product;
 import com.codegym.services.ProductService;
+import com.codegym.utils.Helper;
 import com.codegym.views.ViewTemplate;
 
 import java.time.Instant;
@@ -24,15 +26,24 @@ public class AddProductView extends ProductTemplate {
         System.out.println("Input quantity:");
         int quantityProduct = Integer.parseInt(scanner.nextLine());
 
-        System.out.println("Input manufacturer:");
-        String manufacturerProduct = scanner.nextLine();
+        System.out.println("Manufacturer: ");
+        showManufactory();
+        int manufacturerProduct = Integer.parseInt(scanner.nextLine());
+        EnumManufacturer enumManufacturer = Helper.findById(manufacturerProduct);
 
         Date creatAtProduct = new Date();
         Instant updateAtProduct = Instant.now();
 
         Product product = new Product(idProduct, nameProduct, priceProduct,
-                quantityProduct,manufacturerProduct,  creatAtProduct, updateAtProduct);
+                quantityProduct,enumManufacturer,  creatAtProduct, updateAtProduct);
 
         productService.addProduct(product);
+    }
+
+    public void showManufactory() {
+        System.out.println("Press: ");
+        for (EnumManufacturer e : EnumManufacturer.values()) {
+            System.out.printf("[%s]: %s \n", e.getId(), e.getName());
+        }
     }
 }

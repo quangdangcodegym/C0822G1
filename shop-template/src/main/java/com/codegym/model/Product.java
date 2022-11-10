@@ -11,7 +11,7 @@ public class Product {
     private String name;
     private float price;
     private int quantity;
-    private String manufacturer;
+    private EnumManufacturer manufacturer;
     private Date createAt;
     private Instant updateAt;
 
@@ -20,7 +20,7 @@ public class Product {
 
     }
     public Product(Long id, String name, float price, int quantity,
-                   String manufacturer, Date createAt, Instant updateAt) {
+                   EnumManufacturer manufacturer, Date createAt, Instant updateAt) {
         this.id = id;
         this.name = name;
         this.price = price;
@@ -62,11 +62,11 @@ public class Product {
         this.quantity = quantity;
     }
 
-    public String getManufacturer() {
+    public EnumManufacturer getManufacturer() {
         return manufacturer;
     }
 
-    public void setManufacturer(String manufacturer) {
+    public void setManufacturer(EnumManufacturer manufacturer) {
         this.manufacturer = manufacturer;
     }
 
@@ -95,6 +95,14 @@ public class Product {
 //                this.quantity, this.manufacturer, dateCreateAt, dateUpdateAt);
 
         return String.format("%s,%s,%s,%s,%s,%s,%s", this.id, this.name, this.price,
-                this.quantity, this.manufacturer, dateCreateAt, dateUpdateAt);
+                this.quantity, this.manufacturer.getId(), dateCreateAt, dateUpdateAt);
+    }
+
+    public String showInfo() {
+        String dateCreateAt = DateUtils.formatDateToString(this.createAt);
+        String dateUpdateAt = DateUtils.formatInstanstToString(this.updateAt);
+
+        return String.format("%s,%s,%s,%s,%s,%s,%s", this.id, this.name, this.price,
+                this.quantity, this.manufacturer.getName(), dateCreateAt, dateUpdateAt);
     }
 }
