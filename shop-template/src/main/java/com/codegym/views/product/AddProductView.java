@@ -2,9 +2,8 @@ package com.codegym.views.product;
 
 import com.codegym.model.EnumManufacturer;
 import com.codegym.model.Product;
-import com.codegym.services.ProductService;
 import com.codegym.utils.Helper;
-import com.codegym.views.ViewTemplate;
+import com.codegym.utils.ValidatesUtils;
 
 import java.time.Instant;
 import java.util.Date;
@@ -18,8 +17,11 @@ public class AddProductView extends ProductTemplate {
     public void showBody() {
         System.out.println("--> ADD PRODUCT VIEW");
         Long idProduct = System.currentTimeMillis()/1000;
+
         System.out.println("Input name:");
-        String nameProduct = scanner.nextLine();
+        String nameProduct = inputName();
+
+
         System.out.println("Input price:");
         Float priceProduct = Float.parseFloat(scanner.nextLine());
 
@@ -28,8 +30,9 @@ public class AddProductView extends ProductTemplate {
 
         System.out.println("Manufacturer: ");
         showManufactory();
-        int manufacturerProduct = Integer.parseInt(scanner.nextLine());
-        EnumManufacturer enumManufacturer = Helper.findById(manufacturerProduct);
+        int idManufacturer = Integer.parseInt(scanner.nextLine());
+        EnumManufacturer enumManufacturer = Helper.findById(idManufacturer);
+
 
         Date creatAtProduct = new Date();
         Instant updateAtProduct = Instant.now();
@@ -38,6 +41,20 @@ public class AddProductView extends ProductTemplate {
                 quantityProduct,enumManufacturer,  creatAtProduct, updateAtProduct);
 
         productService.addProduct(product);
+    }
+
+    private String inputName() {
+        System.out.println("P/s: Name start with case sensitive, maximun 10 character");
+        boolean check = false;
+        String name = "";
+        do{
+            name = scanner.nextLine();
+            check = ValidatesUtils.validateNameProduct(name);
+            if (check == false) {
+                System.out.println("P/s: Name start with case sensitive, maximun 10 character");
+            }
+        }while (!check);
+        return name;
     }
 
     public void showManufactory() {

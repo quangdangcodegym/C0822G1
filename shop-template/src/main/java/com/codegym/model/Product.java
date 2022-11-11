@@ -2,7 +2,6 @@ package com.codegym.model;
 
 import com.codegym.utils.DateUtils;
 
-import java.text.SimpleDateFormat;
 import java.time.Instant;
 import java.util.Date;
 
