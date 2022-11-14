@@ -1,16 +1,22 @@
 package com.codegym;
 
+import com.codegym.services.ProductService;
 import com.codegym.views.ViewTemplate;
 import com.codegym.views.product.*;
+import org.junit.Test;
 
-import java.util.Scanner;
+import	static	org.junit.jupiter.api.Assertions.assertEquals;
+
+import java.util.*;
+import java.util.function.Consumer;
+import java.util.stream.Stream;
 
 public class Main {
     public static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
-//        ProductService.init();
         ViewTemplate viewPage = null;
         boolean flagMenu = true;
+
         do{
             System.out.println("Menu: ");
             System.out.println("1: Add Product");
@@ -44,7 +50,6 @@ public class Main {
             viewPage.showPage();
             //
         }while (flagMenu);
-
 
 
     }

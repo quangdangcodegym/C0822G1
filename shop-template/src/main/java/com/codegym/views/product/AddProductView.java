@@ -15,6 +15,7 @@ public class AddProductView extends ProductTemplate {
     }
     @Override
     public void showBody() {
+
         System.out.println("--> ADD PRODUCT VIEW");
         Long idProduct = System.currentTimeMillis()/1000;
 

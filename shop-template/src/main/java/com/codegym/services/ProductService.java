@@ -4,6 +4,7 @@ import com.codegym.model.Product;
 import com.codegym.utils.DateUtils;
 import com.codegym.utils.FileUtils;
 import com.codegym.utils.Helper;
+import com.codegym.utils.LogUtils;
 import com.sun.javafx.css.Combinator;
 
 import java.io.BufferedReader;
@@ -24,6 +25,7 @@ public class ProductService {
         List<Product> listProduct = new ArrayList<>();
         List<String> listProductLines = FileUtils.readFile(PRODUCT_FILE);
         for (String item : listProductLines) {
+            LogUtils.my_log.logger.info(item);
             // item: 1668046363,Iphone 13,12000.0,2,Apple,11-10-2022 09:12:52,11-10-2022 09:12:52
             String[] items = item.split(",");
             Long idProduct = Long.parseLong(items[0]);
@@ -37,6 +39,7 @@ public class ProductService {
             Product product = new Product(idProduct, nameProduct, priceProduct, quantityProduct, Helper.findById(idManufacturorProduct), createAtProduct, updateAtProduct);
             listProduct.add(product);
         }
+
         return listProduct;
     }
     public List<String> convertProductsToListString(List<Product> products) {
